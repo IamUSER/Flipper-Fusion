@@ -16,7 +16,7 @@ void desktop_scene_fault_on_enter(void* context) {
     popup_set_context(popup, desktop);
     popup_set_header(
         popup,
-        "Slut passed out\n but is now back",
+        "System Halted\n Resetting...",
         60,
         14 + STATUS_BAR_Y_SHIFT,
         AlignCenter,
