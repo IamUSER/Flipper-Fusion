@@ -50,12 +50,15 @@ static void render_callback(Canvas* canvas, void* ctx) {
     if(stats->butthurt <= 4) {
         mood = 0;
         snprintf(mood_str, 20, "Status: Wet");
+        snprintf(mood_str, 20, "Status: Pro");
     } else if(stats->butthurt <= 9) {
         mood = 1;
         snprintf(mood_str, 20, "Status: Horny");
+        snprintf(mood_str, 20, "Status: Okay");
     } else {
         mood = 2;
         snprintf(mood_str, 20, "Status: Desperate");
+        snprintf(mood_str, 20, "Status: Dead");
     }
 
     uint32_t xp_progress = 0;
@@ -75,12 +78,12 @@ static void render_callback(Canvas* canvas, void* ctx) {
     // portrait
     furi_assert((stats->level > 0) && (stats->level <= 30));
     uint16_t tmpLvl = 0;
-    // if(stats->level > 10) tmpLvl = 1;
-    // if(stats->level > 15) tmpLvl = 2;
-    // if(stats->level > 18) tmpLvl = 3;
-    // if(stats->level > 21) tmpLvl = 4;
-    // if(stats->level > 24) tmpLvl = 5;
-    // if(stats->level > 27) tmpLvl = 6;
+    if(stats->level > 10) tmpLvl = 1;
+    if(stats->level > 15) tmpLvl = 2;
+    if(stats->level > 18) tmpLvl = 3;
+    if(stats->level > 21) tmpLvl = 4;
+    if(stats->level > 24) tmpLvl = 5;
+    if(stats->level > 27) tmpLvl = 6;
     canvas_draw_icon(canvas, 11, 2, portraits[mood][tmpLvl]);
 
     const char* my_name = furi_hal_version_get_name_ptr();
