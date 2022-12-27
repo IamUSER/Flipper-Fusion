@@ -59,13 +59,13 @@ static void gui_redraw_status_bar(Gui* gui, bool need_attention) {
      * draw icon with transparent white color
      */
     canvas_set_color(gui->canvas, ColorWhite);
-    // canvas_draw_box(gui->canvas, 1, 1, 9, 7);
-    // canvas_draw_box(gui->canvas, 7, 3, 58, 6);
-    // canvas_draw_box(gui->canvas, 61, 1, 32, 7);
-    // canvas_draw_box(gui->canvas, 89, 3, 38, 6);
+    canvas_draw_box(gui->canvas, 1, 1, 9, 7);
+    canvas_draw_box(gui->canvas, 7, 3, 58, 6);
+    canvas_draw_box(gui->canvas, 61, 1, 32, 7);
+    canvas_draw_box(gui->canvas, 89, 3, 38, 6);
     canvas_set_color(gui->canvas, ColorBlack);
     canvas_set_bitmap_mode(gui->canvas, 1);
-    // canvas_draw_icon(gui->canvas, 0, 0, &I_Background_128x11);
+    canvas_draw_icon(gui->canvas, 0, 0, &I_Background_128x11);
     canvas_set_bitmap_mode(gui->canvas, 0);
 
     // Right side
@@ -103,17 +103,23 @@ static void gui_redraw_status_bar(Gui* gui, bool need_attention) {
             gui->canvas,
             GUI_DISPLAY_WIDTH - 3 - right_used,
             GUI_STATUS_BAR_Y,
-            right_used + 2,
+            right_used + 3,
             GUI_STATUS_BAR_HEIGHT);
         canvas_set_color(gui->canvas, ColorBlack);
         canvas_draw_rframe(
-            gui->canvas, 0, 0, canvas_width(gui->canvas), canvas_height(gui->canvas) - 1, 1);
+            gui->canvas, 0, 0, canvas_width(gui->canvas), canvas_height(gui->canvas), 1);
         canvas_draw_line(
             gui->canvas,
-            canvas_width(gui->canvas) - 1,
-            2,
-            canvas_width(gui->canvas) - 1,
-            canvas_height(gui->canvas) - 4);
+            canvas_width(gui->canvas) - 2,
+            1,
+            canvas_width(gui->canvas) - 2,
+            canvas_height(gui->canvas) - 2);
+        canvas_draw_line(
+            gui->canvas,
+            1,
+            canvas_height(gui->canvas) - 2,
+            canvas_width(gui->canvas) - 2,
+            canvas_height(gui->canvas) - 2);
     }
 
     // Left side
@@ -128,8 +134,7 @@ static void gui_redraw_status_bar(Gui* gui, bool need_attention) {
             canvas_frame_set(
                 gui->canvas,
                 x - 1,
-                // SASQUACH SAYS : This is the white box behind the left bar, move it 64 to hide it
-                GUI_STATUS_BAR_Y + 64,
+                GUI_STATUS_BAR_Y + 1,
                 width + 2,
                 GUI_STATUS_BAR_WORKAREA_HEIGHT + 2);
             canvas_set_color(gui->canvas, ColorWhite);
@@ -138,12 +143,7 @@ static void gui_redraw_status_bar(Gui* gui, bool need_attention) {
             canvas_set_color(gui->canvas, ColorBlack);
             // ViewPort draw
             canvas_frame_set(
-                // SASQUACH SAYS : This is where you move the Icons for the left bar, 64 to hide it
-                gui->canvas,
-                x,
-                GUI_STATUS_BAR_Y + 64,
-                width,
-                GUI_STATUS_BAR_WORKAREA_HEIGHT);
+                gui->canvas, x, GUI_STATUS_BAR_Y + 2, width, GUI_STATUS_BAR_WORKAREA_HEIGHT);
             view_port_draw(view_port, gui->canvas);
             // Recalculate next position
             left_used += (width + 2);
@@ -173,6 +173,23 @@ static void gui_redraw_status_bar(Gui* gui, bool need_attention) {
         x += (width + 2);
     }
     // Draw frame around icons on the left
+    if(left_used) {
+        canvas_frame_set(gui->canvas, 0, 0, left_used + 3, GUI_STATUS_BAR_HEIGHT);
+        canvas_draw_rframe(
+            gui->canvas, 0, 0, canvas_width(gui->canvas), canvas_height(gui->canvas), 1);
+        canvas_draw_line(
+            gui->canvas,
+            canvas_width(gui->canvas) - 2,
+            1,
+            canvas_width(gui->canvas) - 2,
+            canvas_height(gui->canvas) - 2);
+        canvas_draw_line(
+            gui->canvas,
+            1,
+            canvas_height(gui->canvas) - 2,
+            canvas_width(gui->canvas) - 2,
+            canvas_height(gui->canvas) - 2);
+    }
 }
 
 bool gui_redraw_window(Gui* gui) {
