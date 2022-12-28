@@ -5,13 +5,12 @@
 <p align="center">
   <img src="https://3.bp.blogspot.com/_LbccUVbSRd8/S31Q4d7WfeI/AAAAAAAAGM0/FtGHgukTIzg/s1600/amazon-river-dolphin+1.jpg">
 </p>
-<p align="center">A.K.A. The Ugliest Dolphin</p>
+<p align="center">A.K.A. Ugly Porpoise</p>
 
 -----
 <br>
 <h2 align="center">What makes it special?</h2>
 
-<p>The earthling trying to modify it.</p>
 <p>If you can't tell... This is a fork of a fork of a fork. 
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, and ClaraCrazy.</p>
 
