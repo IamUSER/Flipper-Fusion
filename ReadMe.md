@@ -12,7 +12,7 @@
 <h2 align="center">What makes it special?</h2>
 
 <p>If you can't tell... This is a fork of a fork of a fork. 
-<i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, and ClaraCrazy.</p>
+<i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</p>
 
 ----
 <br>
