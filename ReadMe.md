@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://3.bp.blogspot.com/_LbccUVbSRd8/S31Q4d7WfeI/AAAAAAAAGM0/FtGHgukTIzg/s1600/amazon-river-dolphin+1.jpg">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackerdolphin512.png?raw=true">
 </p>
 <p align="center">A.K.A. Ugly Porpoise</p>
 
