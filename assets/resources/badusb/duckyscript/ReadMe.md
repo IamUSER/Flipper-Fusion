@@ -1,6 +1,6 @@
-# BadUSB scripts I've created, converted, or collected.
+# BadUSB scripts I've consolidated. I know I have missed credits for some creators. Please create a pull request and I will make it right by removing or crediting your work! I appreciate you! - IamUSER
 
-Proper credit is always provided; I simply request the same.<br>
+Thank you to all the creators whose code I have stolen to make my own flipper build! I love you!<br>
 [Check out this nice list of keys you can use in your scripts!](https://gist.github.com/methanoliver/efebfe8f4008e167417d4ab96e5e3cac)
 
 ## Many more should work from my other repos: [O.MG Devices](https://github.com/UberGuidoZ/Hak5-OMG-Payloads) and [Hak5](https://github.com/UberGuidoZ/Hak5-USBRubberducky-Payloads)
