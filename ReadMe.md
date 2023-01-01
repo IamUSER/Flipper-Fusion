@@ -1,6 +1,4 @@
-<h1 align="center"><p><code>Flipper Fusion Firmware</code></p>
-  <p><i>You don't want this build!</i></p>
-</h1>
+<h1 align="center"><p>&#9762; Flipper <code>Fusion</code> Firmware &#9762;</p></h1>
 
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackerdolphin512.png?raw=true">
