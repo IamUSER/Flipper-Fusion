@@ -19,8 +19,8 @@ A.K.A. Ugly Porpoise
 
 ```bash
 To download the needed tools:
-$ git clone --recursive https://github.com/ClaraCrazy/Flipper-Xtreme.git
-$ cd Flipper-Xtreme/
+$ git clone --recursive https://github.com/IamUSER/Flipper-Fusion.git
+$ cd Flipper-Fusion/
 
 To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
 $ ./fbt flash_usb

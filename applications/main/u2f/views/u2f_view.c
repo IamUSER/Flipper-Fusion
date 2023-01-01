@@ -29,7 +29,7 @@ static void u2f_view_draw_callback(Canvas* canvas, void* _model) {
         }
         else {
             canvas_draw_icon(canvas, 22, 15, &I_Connect_me_62x31);
-            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Plug me in d-daddy");
+            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Connect taget machine");
         }
     }
     else if (model->display_msg == U2fMsgIdle) {
