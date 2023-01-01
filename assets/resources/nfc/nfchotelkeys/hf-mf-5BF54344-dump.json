@@ -1,0 +1,269 @@
+{
+  "Created": "proxmark3",
+  "FileType": "mfcard",
+  "Card": {
+    "UID": "5BF54344",
+    "ATQA": "0400",
+    "SAK": "08"
+  },
+  "blocks": {
+    "0": "5BF54344A908040002B329C04C736E1D",
+    "1": "E7C0175644AD6445000171733FAD61BD",
+    "2": "8A000400010000000000000000000000",
+    "3": "1328D5485056FF078069FFFFFFFFFFFF",
+    "4": "2800060000000000000000C100000010",
+    "5": "2800060000000000000000C100000010",
+    "6": "00000000000000000000000000000000",
+    "7": "2A2C13CC242AFF078069FFFFFFFFFFFF",
+    "8": "0CD06168043010890AD836F880000000",
+    "9": "00000000000000000000000000000000",
+    "10": "00000000000000000000000000000000",
+    "11": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "12": "00000000000000000000000000000000",
+    "13": "00000000000000000000000000000000",
+    "14": "00000000000000000000000000000000",
+    "15": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "16": "A8430AD7A0FF006BA8430ACB602D004D",
+    "17": "A8430ACE202D0010A8430B50202D0093",
+    "18": "A8430D12A0FF00A9A8430D05202D004A",
+    "19": "1328D5485056FF078069FFFFFFFFFFFF",
+    "20": "A842ED6EA0FF00E4A8430AAD209D005F",
+    "21": "00000000000000000000000000000000",
+    "22": "00000000000000000000000000000000",
+    "23": "1328D5485056FF078069FFFFFFFFFFFF",
+    "24": "00000000000000000000000000000000",
+    "25": "00000000000000000000000000000000",
+    "26": "00000000000000000000000000000000",
+    "27": "1328D5485056FF078069FFFFFFFFFFFF",
+    "28": "00000000000000000000000000000000",
+    "29": "00000000000000000000000000000000",
+    "30": "00000000000000000000000000000000",
+    "31": "1328D5485056FF078069FFFFFFFFFFFF",
+    "32": "00000000000000000000000000000000",
+    "33": "00000000000000000000000000000000",
+    "34": "00000000000000000000000000000000",
+    "35": "1328D5485056FF078069FFFFFFFFFFFF",
+    "36": "00000000000000000000000000000000",
+    "37": "00000000000000000000000000000000",
+    "38": "00000000000000000000000000000000",
+    "39": "1328D5485056FF078069FFFFFFFFFFFF",
+    "40": "00000000000000000000000000000000",
+    "41": "00000000000000000000000000000000",
+    "42": "00000000000000000000000000000000",
+    "43": "1328D5485056FF078069FFFFFFFFFFFF",
+    "44": "00000000000000000000000000000000",
+    "45": "00000000000000000000000000000000",
+    "46": "00000000000000000000000000000000",
+    "47": "1328D5485056FF078069FFFFFFFFFFFF",
+    "48": "00000000000000000000000000000000",
+    "49": "00000000000000000000000000000000",
+    "50": "00000000000000000000000000000000",
+    "51": "1328D5485056FF078069FFFFFFFFFFFF",
+    "52": "00000000000000000000000000000000",
+    "53": "00000000000000000000000000000000",
+    "54": "00000000000000000000000000000000",
+    "55": "1328D5485056FF078069FFFFFFFFFFFF",
+    "56": "00000000000000000000000000000000",
+    "57": "00000000000000000000000000000000",
+    "58": "00000000000000000000000000000000",
+    "59": "1328D5485056FF078069FFFFFFFFFFFF",
+    "60": "00000000000000000000000000000000",
+    "61": "00000000000000000000000000000000",
+    "62": "00000000000000000000000000000000",
+    "63": "1328D5485056FF078069FFFFFFFFFFFF"
+  },
+  "SectorKeys": {
+    "0": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block0": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block1": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block2": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block3": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "1": {
+      "KeyA": "2A2C13CC242A",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block4": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block5": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block6": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block7": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "2": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block8": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block9": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block10": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block11": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "3": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block12": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block13": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block14": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block15": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "4": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block16": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block17": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block18": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block19": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "5": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block20": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block21": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block22": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block23": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "6": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block24": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block25": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block26": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block27": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "7": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block28": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block29": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block30": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block31": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "8": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block32": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block33": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block34": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block35": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "9": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block36": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block37": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block38": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block39": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "10": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block40": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block41": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block42": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block43": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "11": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block44": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block45": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block46": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block47": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "12": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block48": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block49": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block50": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block51": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "13": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block52": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block53": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block54": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block55": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "14": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block56": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block57": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block58": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block59": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    },
+    "15": {
+      "KeyA": "1328D5485056",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block60": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block61": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block62": "read AB; write AB; increment AB; decrement transfer restore AB",
+        "block63": "write A by A; read/write ACCESS by A; read/write B by A",
+        "UserData": "69"
+      }
+    }
+  }
+}

@@ -57,13 +57,13 @@ static void render_callback(Canvas* canvas, void* ctx) {
     } else {
         if(stats->butthurt <= 4) {
             mood = 0;
-            snprintf(mood_str, 20, "Status: Wet");
+            snprintf(mood_str, 20, "Status: Hunting");
         } else if(stats->butthurt <= 9) {
             mood = 1;
-            snprintf(mood_str, 20, "Status: Horny");
+            snprintf(mood_str, 20, "Status: Swimming");
         } else {
             mood = 2;
-            snprintf(mood_str, 20, "Status: Desperate");
+            snprintf(mood_str, 20, "Status: Floating");
         }
 
     }
