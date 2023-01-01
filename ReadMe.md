@@ -4,8 +4,9 @@
 
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackerdolphin512.png?raw=true">
+<br>
+A.K.A. Ugly Porpoise
 </p>
-<p align="center">A.K.A. Ugly Porpoise</p>
 
 -----
 <br>
