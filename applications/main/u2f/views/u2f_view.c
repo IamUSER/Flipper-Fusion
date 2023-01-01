@@ -49,9 +49,9 @@ static void u2f_view_draw_callback(Canvas* canvas, void* _model) {
             canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Press OK to register");
         }
         else {
-            elements_button_center(canvas, "CUM");
+            elements_button_center(canvas, "Go!");
             canvas_draw_icon(canvas, 22, 15, &I_Auth_62x31);
-            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Press CUM to register");
+            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Press Go! to register");
         }
     }
     else if (model->display_msg == U2fMsgAuth) {
@@ -61,9 +61,9 @@ static void u2f_view_draw_callback(Canvas* canvas, void* _model) {
             canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Press OK to authenticate");
         }
         else {
-            elements_button_center(canvas, "CUM");
+            elements_button_center(canvas, "Go!");
             canvas_draw_icon(canvas, 22, 15, &I_Auth_62x31);
-            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Press CUM to authenticate");
+            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Press Go! to authenticate");
         }
     }
     else if (model->display_msg == U2fMsgSuccess) {
@@ -73,7 +73,7 @@ static void u2f_view_draw_callback(Canvas* canvas, void* _model) {
         }
         else {
             canvas_draw_icon(canvas, 22, 15, &I_Connected_62x31);
-            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Cum released~");
+            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Let's Go!");
         }
     }
     else if (model->display_msg == U2fMsgError) {
@@ -83,7 +83,7 @@ static void u2f_view_draw_callback(Canvas* canvas, void* _model) {
         }
         else {
             canvas_draw_icon(canvas, 22, 15, &I_Error_62x31);
-            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Unable to cum");
+            canvas_draw_str_aligned(canvas, 128 / 2, 3, AlignCenter, AlignTop, "Beep Boop Boom!");
         }
     }
     free(settings);
