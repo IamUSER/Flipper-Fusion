@@ -81,12 +81,12 @@ $ ./fbt resources icons dolphin_ext
 <br>
 <h2 align="center">Safe for work mode:</h2>
 
-**Enable SFW mode with the steps listed below**
+**Enable SFW/OEM mode with the steps listed below**
 <br>
 
 - Navigate to the main screen
 - Press the UP button on the Flipper
-- Press the 'SFW Mode' toggle
+- Press the 'OEM Mode' toggle
 
 ----
 

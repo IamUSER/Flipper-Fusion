@@ -69,7 +69,7 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Added]
 
-- SFW Mode
+- SFW Mode (Now called OEM Mode in Fusion)
 - Jamming Files
 - Custom subghz presets
 - Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
