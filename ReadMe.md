@@ -64,7 +64,7 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now OEM Mode
 <br>
 <h2 align="center">List of changes:</h2>
 
-Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
+Note: This repo is always updated with Xtreme and upstream repos. Thanks to all you crazy dolphins! Please let me know if I didn't give you the appropriate credit!
 
 ```txt
 [Added by Me]
