@@ -4,10 +4,34 @@
   <img src="https://user-images.githubusercontent.com/55334727/209031152-efbca66c-3fe0-41b5-a860-e0d7522a9279.png">
 </p>
 
-<h2 align="center">Install:</h2>
+----
+<br>
+<h2 align="center">Install my mutant firmware by building it yourself:</h2>
+
+```bash
+To download the needed tools:
+$ git clone --recursive https://github.com/IamUSER/Flipper-Fusion.git
+$ cd Flipper-Fusion/
+
+To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
+$ ./fbt flash_usb
+
+To just compile firmware
+$ ./fbt updater_package
+
+If building FAPS:
+$ ./fbt fap_dist
+
+If building image assets:
+$ ./fbt resources icons dolphin_ext
+or
+$ ./fbt resources dolphin_ext
+```
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
+
+<h2 align="center">Install the original forked version of Flipper-Xtreme:,/h2>
 
 <h3> Web Updater / Mobile App / Automatic qFlipper Update</h3>
 

@@ -75,8 +75,8 @@ static void bad_usb_draw_callback(Canvas* canvas, void* _model) {
             canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "a device");
         }
         else {
-            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Plug me");
-            canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "in, Daddy");
+            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Attach to");
+            canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "Target Device");
         }
     } else if(model->state.state == BadUsbStateWillRun) {
         canvas_draw_icon(canvas, 4, 26, &I_Clock_18x18);
@@ -85,7 +85,7 @@ static void bad_usb_draw_callback(Canvas* canvas, void* _model) {
             canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Will run");
         }
         else {
-            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Will cum");
+            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Will go");
         }
         canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "on connect");
     } else if(model->state.state == BadUsbStateFileError) {
