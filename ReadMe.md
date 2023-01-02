@@ -58,7 +58,7 @@ $ ./fbt resources dolphin_ext
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
-If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now OEM Mode) to the Firmware. From the main menu, hit `Arrow UP` and select OEM Mode and now all assets will be stock.
+If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now OEM Mode) to the Firmware. From the main menu, hit `Arrow UP` and select OEM Mode and now all assets will be stock.
 
 -----
 <br>
@@ -66,6 +66,13 @@ If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now OEM Mod
 
 Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
 
+```txt
+[Added by Me]
+
+- A plethora of saved assets for NFC, IR, SUB, etc.
+- Fuzzers and their freqs.
+- There may be a functional jammer or two in here. (Don't illegal!)
+```
 ```txt
 [Added]
 
