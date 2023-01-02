@@ -21,6 +21,14 @@ This firmware is very large because it attempts to include and organize many pub
 
 ----
 <br>
+<h2 align="center">Roadmap:</h2>
+
+```txt
+I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
+```
+
+----
+<br>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 
 ```bash
