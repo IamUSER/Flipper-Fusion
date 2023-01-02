@@ -59,7 +59,7 @@ If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now OEM Mod
 <br>
 <h2 align="center">List of changes:</h2>
 
-Note: This repo is always updated with OFW & Unleashed. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
+Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
 
 ```txt
 [Added]
