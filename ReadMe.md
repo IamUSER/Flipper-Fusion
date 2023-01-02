@@ -53,6 +53,7 @@ $ ./fbt resources dolphin_ext
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
+If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now OEM Mode) to the Firmware. From the main menu, hit `Arrow UP` and select OEM Mode and now all assets will be stock.
 
 -----
 <br>
