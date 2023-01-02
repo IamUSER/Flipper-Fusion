@@ -12,20 +12,25 @@ A.K.A. Ugly Porpoise
 
 <p>If you can't tell... This is a fork of a fork of a fork. 
 <br>
+<br>
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
 <br>
-This firmware is very large because it attempts to include and organize many public asset repos that provide ir, sub, bfc, ibutton, etc. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
 <br>
-<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
+This firmware is very large because it attempts to include and organize many public asset repos that provide ir, sub, nfc, ibutton, and other useful files. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
+<br>
+<br>
+<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 </p>
 
 ----
 <br>
 <h2 align="center">Roadmap:</h2>
 
-```txt
-I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
-```
+<p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. 
+<br>
+Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. 
+<br>
+Hack for peace! XO
 
 ----
 <br>
