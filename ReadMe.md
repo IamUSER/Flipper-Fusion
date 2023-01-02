@@ -13,7 +13,7 @@ A.K.A. Ugly Porpoise
 <p>If you can't tell... This is a fork of a fork of a fork. 
 <br>
 <br>
-<i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
+<i>Thanks to <b>FlipperZero Dev, Xtreme Team, Unleased Team, RogueMaster Team, and UberGuidoZ.</b> If I missed you please let me know!</i>
 <br>
 <br>
 This firmware is very large because it attempts to include and organize many public asset repos that provide ir, sub, nfc, ibutton, and other useful files. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
@@ -64,7 +64,7 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now OEM Mode
 <br>
 <h2 align="center">List of changes:</h2>
 
-Note: This repo is always updated with Xtreme and upstream repos. Thanks to all you crazy dolphins! Please let me know if I didn't give you the appropriate credit!
+Note: This repo is always updated with Xtreme and upstream repos. Thanks to all you crazy dolphins!
 
 ```txt
 [Added by Me]
