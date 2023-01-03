@@ -1,8 +1,42 @@
-<h1 align="center"><code>Xtreme Firmware Documentation</code></h1>
+<h1 align="center"><p>&#9762; Flipper <code>Fusion</code> Firmware &#9762;</p></h1>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/55334727/209031152-efbca66c-3fe0-41b5-a860-e0d7522a9279.png">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackerdolphin512.png?raw=true">
+<br>
+A.K.A. Ugly Porpoise
 </p>
+
+-----
+<br>
+<h2 align="center">What makes it special?</h2>
+
+<p>If you can't tell... This is a fork of a fork of a fork. 
+<br>
+<i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
+<br>
+This firmware is very large because it attempts to include and organize many public asset repos that provide ir, sub, bfc, ibutton, etc. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
+<br>
+<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
+
+<br>
+<h2 align="center">Support the project</h2>
+
+**If you like Xtreme Firmware and wish to help out, please contribute to the project ❤️**
+<br>
+
+- [Bunq - My bank](https://bunq.me/ClaraK)
+- [Paypal](https://paypal.me/RdX2020)
+- [Patreon](https://patreon.com/CynthiaLabs)
+- `Monero`: 41kyWeeoVdK4quzQ4M9ikVGs6tCQCLfdx8jLExTNsAu2SF1QAyDqRdjfGM6EL8L9NpXwt89HJeAoGf1aoArk7nDr4AMMV4T
+</p>
+
+----
+<br>
+<h2 align="center">Roadmap:</h2>
+
+```txt
+I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
+```
 
 ----
 <br>
@@ -30,84 +64,17 @@ $ ./fbt resources dolphin_ext
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
-
-<h2 align="center">Install the original forked version of Flipper-Xtreme:,/h2>
-
-<h3> Web Updater / Mobile App / Automatic qFlipper Update</h3>
-
-- Go to the latest release from [The releases tab](https://github.com/ClaraCrazy/Flipper-Xtreme/releases/latest)
-- Download the .tgz file
-- Run your updater of choice with it
-
-- Enjoy!
-<br>
-
------
-<br>
-
-<h3> Manual Update (Because qFlipper loves to break every now and then for no reason at all)</h3>
-
-- Download the latest release (.zip) from [The releases tab](https://github.com/ClaraCrazy/Flipper-Xtreme/releases/latest)
-- Extract the archive. This is now your new Firmware folder
-- Open [qFlipper](https://flipperzero.one/update), head to `SD/Update` and simply move the firmware folder there
-- On the Flipper, hit the `Arrow Down` button, this will get you to the file menu. Hit `Arrow Left` once, and then simply search for your updates folder
-- Inside that folder, select the Firmware you just moved onto it, and run the file thats simply called `Update`
-
-- Enjoy!
-
-----
-
-<br>
-<h2 align="center">Build it yourself:</h2>
-
-```bash
-To download the needed tools:
-$ git clone --recursive https://github.com/ClaraCrazy/Flipper-Xtreme.git
-$ cd Flipper-Xtreme/
-
-To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
-$ ./fbt flash_usb
-
-To just compile firmware
-$ ./fbt updater_package
-
-If building FAPS:
-$ ./fbt fap_dist
-
-If building image assets:
-$ ./fbt resources icons dolphin_ext
-```
-
-<br>
-<h2 align="center">Safe for work mode:</h2>
-
-**Enable SFW/OEM mode with the steps listed below**
+If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now OEM Mode) to the Firmware. From the main menu, hit `Arrow UP` and select OEM Mode and now all assets will be stock.
+<br><br>
+**Enable OEM mode with the steps listed below**
 <br>
 
 - Navigate to the main screen
 - Press the UP button on the Flipper
 - Press the 'OEM Mode' toggle
-
 ----
-
 <br>
-<h2 align="center">Support the project</h2>
-
-**If you like Xtreme Firmware and wish to help out, we would love it if you contributed to the project ❤️**
-<br>
-
-- [Bunq - My bank](https://bunq.me/ClaraK)
-- [Paypal](https://paypal.me/RdX2020)
-- [Patreon](https://patreon.com/CynthiaLabs)
-- `Monero`: 41kyWeeoVdK4quzQ4M9ikVGs6tCQCLfdx8jLExTNsAu2SF1QAyDqRdjfGM6EL8L9NpXwt89HJeAoGf1aoArk7nDr4AMMV4T
-
-
-
-----
-
-
-<br>
-<h2 align="center">Applications we use thanks to the awesome contributers and community ❤️</h2>
+<h2 align="center">Awesome contributers and community additions ❤️</h2>
 
 ## GPIO
 - [Lightmeter](https://github.com/oleksiikutuzov/flipperzero-lightmeter)
@@ -199,3 +166,81 @@ $ ./fbt resources icons dolphin_ext
 
 
 ---
+
+-----
+<br>
+<h2 align="center">List of changes:</h2>
+
+Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
+
+```txt
+[Added in Fusion]
+
+- A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
+- Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
+- OOK Bruteforcer - https://github.com/tobiabocchi/flipperzero-bruteforce
+- Intercom RFID's - (https://github.com/wetox-team/flipperzero-goodies)
+- t119 Bruteforcer - (https://github.com/xb8/t119bruteforcer)
+- H10301 Bruteforce - (https://github.com/UberGuidoZ/Flipper)
+```
+```txt
+[Added]
+
+- SFW Mode (OEM Mode in Fusion)
+- Jamming Files
+- Custom subghz presets
+- Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
+- Honda Keys (CVE-2022-27254)
+- NSFW Animations tied to the level system. Read more above
+- New API Routes for Locale settings
+- Scrolling view for long file names in browser
+- Tamagotchi rom
+```
+```txt
+[Updated]
+
+- All graphics
+- Folder handling for empty ones (Now indicate they are empty)
+- Applications now use the new Locale setting
+- Compiler now handles all non-compiled faps during build
+- Compiler now accepts WIP SDK 
+- Compiler just stfu about non-fatal problems
+- Some further NFC stuff
+- Weather App
+- Applications now use above mentioned API Routes
+```
+```txt
+[Fixed]
+
+- Passport crash on high level
+- SFW / Dummy_mode getting you XP
+- Leveling system
+- Mood system
+```
+```txt
+[REMOVED]
+
+- Unused Dummy Mode
+- Broken apps (bad apple, chess, etc.)
+- Unused code from FAPs and system calls
+```
+
+----
+<br>
+<h2 align="center">Known Bugs:</h2>
+
+```txt
+- Name Changer app crashes when you close it without using it
+```
+
+----
+<br>
+<h2 align="center">Credits:</h2>
+
+```txt
+- <a href="https://github.com/flipperdevices/flipperzero-firmware">FlipperZero Team</a> - Stock Firmware and the epic FlipperZero!
+- <a href="https://github.com/ClaraCrazy/Flipper-Xtreme">ClaraCrazy</a> - Xtreme Firmware
+- <a href="urlhttps://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins
+- <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!
+```
+
