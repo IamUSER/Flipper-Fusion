@@ -54,7 +54,7 @@ static void bad_usb_draw_callback(Canvas* canvas, void* _model) {
             elements_button_center(canvas, "Start");
         }
         else {
-            elements_button_center(canvas, "Cum");
+            elements_button_center(canvas, "Go!");
         }
     } else if((model->state.state == BadUsbStateRunning) || (model->state.state == BadUsbStateDelay)) {
         elements_button_center(canvas, "Stop");

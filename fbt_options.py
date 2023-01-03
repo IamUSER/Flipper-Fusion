@@ -14,7 +14,7 @@ DEBUG = 0
 
 # Suffix to add to files when building distribution
 # If OS environment has DIST_SUFFIX set, it will be used instead
-DIST_SUFFIX = "FlipperFusion_0.74.3b4"
+DIST_SUFFIX = "FlipperFusion_0.74.3b5"
 
 # Coprocessor firmware
 COPRO_OB_DATA = "scripts/ob.data"
