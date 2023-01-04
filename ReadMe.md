@@ -1,7 +1,7 @@
 <h1 align="center"><p>&#9762; Flipper <code>Fusion</code> Firmware &#9762;</p></h1>
 
 <p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackerdolphin512.png?raw=true">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackboi.png?raw=true">
 <br>
 A.K.A. Ugly Porpoise
 </p>
@@ -19,7 +19,7 @@ This firmware is very large because it attempts to include and organize many pub
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
 
 <br>
-<h2 align="center">Support the project</h2>
+<h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
 
 **If you like Xtreme Firmware and wish to help out, please contribute to the project ❤️**
 <br>
@@ -34,9 +34,7 @@ This firmware is very large because it attempts to include and organize many pub
 <br>
 <h2 align="center">Roadmap:</h2>
 
-```txt
-I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
-```
+<p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 
 ----
 <br>

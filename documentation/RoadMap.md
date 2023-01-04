@@ -1,9 +1,8 @@
 # RoadMap
 
-# Where we are (0.x.x branch)
+# Where we are (0.74.x branch)
 
-Our goal for 0.x.x branch is to build stable, usable apps and API.
-The first public release in this branch is 0.43.1.
+I'm cramming as much into this bad boi as I can. That's the roadmap. A FULLY FUCNCTIONAL FLIPPER!
 
 ## What's already implemented
 
@@ -28,22 +27,3 @@ The first public release in this branch is 0.43.1.
 
 - Bluetooth
 - Snake game
-
-# Where we're going (Version 1)
-
-The main goal for 1.0.0 is to provide the first stable version for both Users and Developers.
-
-## What we're planning to implement in 1.0.0
-
-- More protocols (gathering feedback)
-- User documentation (work in progress)
-- FuriHal: deep sleep mode, stable API, examples, documentation (work in progress)
-- Application improvements (a ton of things that we want to add and improve that are too numerous to list here)
-
-## When will it happen, and where can I see the progress?
-
-Release 1.0.0 will most likely happen around the end of 2023Q1
-
-Development progress can be tracked in our public Miro board:
-
-https://miro.com/app/board/uXjVO_3D6xU=/?moveToWidget=3458764522498020058&cot=14
