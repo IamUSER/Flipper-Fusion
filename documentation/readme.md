@@ -237,10 +237,10 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 <br>
 <h2 align="center">Credits:</h2>
 
-```txt
-- <a href="https://github.com/flipperdevices/flipperzero-firmware">FlipperZero Team</a> - Stock Firmware and the epic FlipperZero!
-- <a href="https://github.com/ClaraCrazy/Flipper-Xtreme">ClaraCrazy</a> - Xtreme Firmware
-- <a href="urlhttps://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins
-- <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!
-```
+<p>
+- <a href="https://github.com/flipperdevices/flipperzero-firmware">FlipperZero Team</a> - Stock Firmware and the epic FlipperZero!<br>
+- <a href="https://github.com/ClaraCrazy/Flipper-Xtreme">ClaraCrazy</a> - Xtreme Firmware<br>
+- <a href="urlhttps://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins<br>
+- <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!<br>
+
 
