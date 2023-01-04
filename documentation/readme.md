@@ -11,11 +11,11 @@ A.K.A. Purposeful Porpoise
 <h2 align="center">What makes it special?</h2>
 
 <p>If you can't tell... This is a fork of a fork of a fork. 
-<br>
+<br><br>
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
-<br>
+<br><br>
 This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
-<br>
+<br><br>
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
 
 <br>
@@ -36,7 +36,7 @@ This firmware is very large because it attempts to include and organize many pub
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
-Full roadmap can be found [HERE](https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/RoadMap.md)
+Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/RoadMap.md
 
 ----
 <br>
