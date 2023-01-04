@@ -120,7 +120,7 @@ void desktop_settings_scene_start_on_enter(void* context) {
 
     item = variable_item_list_add(
         variable_item_list,
-        "OEM Content Only",
+        "PRO Content Only",
         SFWMODE_COUNT,
         desktop_settings_scene_start_sfwmode_changed,
         app);

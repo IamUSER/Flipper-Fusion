@@ -64,14 +64,14 @@ $ ./fbt resources dolphin_ext
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
-If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now OEM Mode) to the Firmware. From the main menu, hit `Arrow UP` and select OEM Mode and now all assets will be stock.
+If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
 <br><br>
-**Enable OEM mode with the steps listed below**
+**Enable PRO mode with the steps listed below**
 <br>
 
 - Navigate to the main screen
 - Press the UP button on the Flipper
-- Press the 'OEM Mode' toggle
+- Press the 'PRO Mode' toggle
 ----
 <br>
 <h2 align="center">Awesome contributers and community additions ❤️</h2>
@@ -186,7 +186,7 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Added]
 
-- SFW Mode (OEM Mode in Fusion)
+- SFW Mode (PRO Mode in Fusion)
 - Jamming Files
 - Custom subghz presets
 - Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn

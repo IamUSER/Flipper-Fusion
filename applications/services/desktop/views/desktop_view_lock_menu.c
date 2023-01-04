@@ -77,9 +77,9 @@ void desktop_lock_menu_draw_callback(Canvas* canvas, void* model) {
             }
         } else if(i == DesktopLockMenuIndexSFW) {
             if(m->sfw_mode) {
-                str = "PRO Mode";
+                str = "STD Mode";
             } else {
-                str = "OEM Mode";
+                str = "PRO Mode";
             }
         }
 
