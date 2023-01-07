@@ -14,12 +14,11 @@ A.K.A. Purposeful Porpoise
 <br><br>
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
 <br><br>
-This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
+This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources.
 <br><br>
-<p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/Passport.png?raw=true"></p>
+<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 <br><br>
-<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
+P.S. I'm not here for childish arguments, your money, or recognition. Hack4Peace! XO
 
 <br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
@@ -179,6 +178,7 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Added in Fusion]
 
+- A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
 - OOK Bruteforcer - https://github.com/tobiabocchi/flipperzero-bruteforce
