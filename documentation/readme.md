@@ -16,6 +16,9 @@ A.K.A. Purposeful Porpoise
 <br><br>
 This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
 <br><br>
+<p align="center">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/Passport.png?raw=true"></p>
+<br><br>
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
 
 <br>
