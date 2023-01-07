@@ -233,7 +233,7 @@ If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now PRO Mod
 <h2 align="center">Known Bugs:</h2>
 
 ```txt
-- Name Changer app crashes when you close it without using it
+- None at this time.
 ```
 
 ----
