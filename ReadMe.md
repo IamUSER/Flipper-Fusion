@@ -176,6 +176,7 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Added in Fusion]
 
+- A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
 - OOK Bruteforcer - https://github.com/tobiabocchi/flipperzero-bruteforce
