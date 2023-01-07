@@ -14,7 +14,7 @@ class GitVersion:
         self.gitlist = [("commit", "rev-parse --short HEAD"), ("branch", "rev-parse --abbrev-ref") , ("branch_num", "rev-list -count HEAD")]
 
     def get_version_info(self):
-        commit = branch = branch_num = "Fusion_0.74.3b8"
+        commit = branch = branch_num = "Fusion_0.74.3b9"
 
         for git_tuple in self.gitlist:
             try:
