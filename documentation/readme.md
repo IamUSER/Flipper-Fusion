@@ -20,7 +20,7 @@ This firmware is very large because it attempts to include and organize many pub
 <br><br>
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/Passport.png?raw=true"><br>
-P.S. I'm not here for childish arguments, your money, or recognition. Hack4Peace! XO
+P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 <br><br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
 
