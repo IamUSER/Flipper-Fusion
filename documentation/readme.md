@@ -62,7 +62,6 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Added in XFW]
 
-- Bootloop and DFU Crashfix by jbohack
 - SFW Mode (PRO Mode in Fusion)
 - Jamming Files
 - Custom subghz presets
@@ -76,7 +75,7 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Updated]
 
-- All graphics
+- Graphics Adjustments
 - Folder handling for empty ones (Now indicate they are empty)
 - Applications now use the new Locale setting
 - Compiler now handles all non-compiled faps during build
@@ -89,6 +88,7 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Fixed]
 
+- Bootloop and DFU Crashfix by jbohack
 - Passport crash on high level
 - SFW / Dummy_mode getting you XP
 - Leveling system
