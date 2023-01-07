@@ -43,6 +43,67 @@ Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main
 
 ----
 <br>
+<h2 align="center">List of changes:</h2>
+
+Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
+
+```txt
+[Added in Fusion]
+
+- Restored the Status Bar!
+- A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
+- A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
+- Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
+- OOK Bruteforcer - https://github.com/tobiabocchi/flipperzero-bruteforce
+- Intercom RFID's - (https://github.com/wetox-team/flipperzero-goodies)
+- t119 Bruteforcer - (https://github.com/xb8/t119bruteforcer)
+- H10301 Bruteforce - (https://github.com/UberGuidoZ/Flipper)
+```
+```txt
+[Added in XFW]
+
+- Bootloop and DFU Crashfix by jbohack
+- SFW Mode (PRO Mode in Fusion)
+- Jamming Files
+- Custom subghz presets
+- Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
+- Honda Keys (CVE-2022-27254)
+- NSFW Animations tied to the level system. Read more above
+- New API Routes for Locale settings
+- Scrolling view for long file names in browser
+- Tamagotchi rom
+```
+```txt
+[Updated]
+
+- All graphics
+- Folder handling for empty ones (Now indicate they are empty)
+- Applications now use the new Locale setting
+- Compiler now handles all non-compiled faps during build
+- Compiler now accepts WIP SDK 
+- Compiler just stfu about non-fatal problems
+- Some further NFC stuff
+- Weather App
+- Applications now use above mentioned API Routes
+```
+```txt
+[Fixed]
+
+- Passport crash on high level
+- SFW / Dummy_mode getting you XP
+- Leveling system
+- Mood system
+```
+```txt
+[REMOVED]
+
+- Unused Dummy Mode
+- Broken apps (bad apple, chess, etc.)
+- Unused code from FAPs and system calls
+```
+
+----
+<br>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 
 ```bash
@@ -166,69 +227,6 @@ If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now PRO Mod
 - [Sub-Ghz Bruteforce](https://github.com/derskythe/flipperzero-subbrute/tree/master)
 - [Sub-Ghz Playlist](https://github.com/darmiel/flipper-playlist)
 - [Protocol Visualizer](https://github.com/antirez/protoview)
-
-
----
-
------
-<br>
-<h2 align="center">List of changes:</h2>
-
-Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
-
-```txt
-[Added in Fusion]
-
-- Restored the Status Bar!
-- A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
-- A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
-- Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
-- OOK Bruteforcer - https://github.com/tobiabocchi/flipperzero-bruteforce
-- Intercom RFID's - (https://github.com/wetox-team/flipperzero-goodies)
-- t119 Bruteforcer - (https://github.com/xb8/t119bruteforcer)
-- H10301 Bruteforce - (https://github.com/UberGuidoZ/Flipper)
-```
-```txt
-[Added]
-
-- SFW Mode (PRO Mode in Fusion)
-- Jamming Files
-- Custom subghz presets
-- Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
-- Honda Keys (CVE-2022-27254)
-- NSFW Animations tied to the level system. Read more above
-- New API Routes for Locale settings
-- Scrolling view for long file names in browser
-- Tamagotchi rom
-```
-```txt
-[Updated]
-
-- All graphics
-- Folder handling for empty ones (Now indicate they are empty)
-- Applications now use the new Locale setting
-- Compiler now handles all non-compiled faps during build
-- Compiler now accepts WIP SDK 
-- Compiler just stfu about non-fatal problems
-- Some further NFC stuff
-- Weather App
-- Applications now use above mentioned API Routes
-```
-```txt
-[Fixed]
-
-- Passport crash on high level
-- SFW / Dummy_mode getting you XP
-- Leveling system
-- Mood system
-```
-```txt
-[REMOVED]
-
-- Unused Dummy Mode
-- Broken apps (bad apple, chess, etc.)
-- Unused code from FAPs and system calls
-```
 
 ----
 <br>
