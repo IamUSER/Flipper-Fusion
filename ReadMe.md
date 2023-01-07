@@ -18,6 +18,8 @@ This firmware is very large because it attempts to include and organize many pub
 <br><br>
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 <br><br>
+<p align="center">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/Passport.png?raw=true"><br>
 P.S. I'm not here for childish arguments, your money, or recognition. Hack4Peace! XO
 <br><br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
