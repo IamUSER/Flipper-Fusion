@@ -14,9 +14,11 @@ A.K.A. Purposeful Porpoise
 <br><br>
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
 <br><br>
-This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. It <b>IS</b> going to bloat your device if you already have these files saved to SD. 
+This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources.
 <br><br>
-<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.
+<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
+<br><br>
+P.S. I'm not here for childish arguments, your money, or recognition. Hack4Peace! XO
 
 <br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
