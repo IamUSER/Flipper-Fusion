@@ -45,7 +45,7 @@ Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main
 <br>
 <h2 align="center">List of changes:</h2>
 
-Note: This repo is always updated with Xtreme and upstream repos. No need to mention all those here. We will only mention **our** changes that we can actually be credited for, unlike *others*
+Note: This repo is always updated with select Xtreme Firmware main branch commits. Thank you to everyone who contribues!
 
 ```txt
 [Added in Fusion]
