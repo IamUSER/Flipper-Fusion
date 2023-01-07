@@ -19,8 +19,7 @@ This firmware is very large because it attempts to include and organize many pub
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 <br><br>
 P.S. I'm not here for childish arguments, your money, or recognition. Hack4Peace! XO
-
-<br>
+<br><br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
 
 **If you like Xtreme Firmware and wish to help out, please contribute to the project ❤️**
@@ -178,8 +177,9 @@ Note: This repo is always updated with Xtreme and upstream repos. No need to men
 ```txt
 [Added in Fusion]
 
-- A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
+- Restored the Status Bar!
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
+- A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
 - OOK Bruteforcer - https://github.com/tobiabocchi/flipperzero-bruteforce
 - Intercom RFID's - (https://github.com/wetox-team/flipperzero-goodies)
