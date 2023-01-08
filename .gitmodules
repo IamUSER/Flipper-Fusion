@@ -31,3 +31,6 @@
 [submodule "applications/plugins/dap_link/lib/free-dap"]
 	path = applications/plugins/dap_link/lib/free-dap
 	url = https://github.com/ataradov/free-dap.git
+[submodule "applications/plugins/asteroids"]
+	path = applications/plugins/asteroids
+	url = https://github.com/antirez/flipper-asteroids
