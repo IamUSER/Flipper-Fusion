@@ -159,6 +159,7 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode
 
 
 ## Games
+- [Asteroids](https://github.com/antirez/flipper-asteroids)
 - [2048](https://github.com/eugene-kirzhanov/flipper-zero-2048-game)
 - [Arkanoid](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/applications/plugins/arkanoid)
 - [BlackJack](https://github.com/teeebor/flipper_games)
