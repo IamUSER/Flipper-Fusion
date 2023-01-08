@@ -105,7 +105,7 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 ----
 <br>
 <p align="center">
-  <img src="https://64.media.tumblr.com/4de65e44baa672cf39a6dfc2eb181ee7/tumblr_ogtcaldPeE1txeruoo1_r3_540.gifv"><br></p>
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/radioactive.gif?raw=true"><br></p>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 
 ```bash
