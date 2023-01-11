@@ -113,24 +113,20 @@ To download the needed tools:
 $ git clone --recursive https://github.com/IamUSER/Flipper-Fusion.git
 $ cd Flipper-Fusion/
 
-To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
-$ ./fbt flash_usb
-
-To just compile firmware
-$ ./fbt updater_package
-
-If building FAPS:
+Build apps:
 $ ./fbt fap_dist
 
-If building image assets:
-$ ./fbt resources icons dolphin_ext
-or
+Build resources:
 $ ./fbt resources dolphin_ext
+
+Build firmware:
+$ ./fbt COMPACT=1 DEBUG=0 updater_package
+
 ```
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
-If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
+If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
 <br><br>
 **Enable PRO mode with the steps listed below**
 <br>
@@ -163,6 +159,7 @@ If you dont like the default asthetic, ClaraCrazy added an SFW mode (Now PRO Mod
 
 
 ## Games
+- [Asteroids](https://github.com/antirez/flipper-asteroids)
 - [2048](https://github.com/eugene-kirzhanov/flipper-zero-2048-game)
 - [Arkanoid](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/applications/plugins/arkanoid)
 - [BlackJack](https://github.com/teeebor/flipper_games)
