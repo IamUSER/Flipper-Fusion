@@ -27,8 +27,6 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 **If you like Xtreme Firmware and wish to help out, please contribute to the project ❤️**
 <br>
 
-- [Bunq - My bank](https://bunq.me/ClaraK)
-- [Paypal](https://paypal.me/RdX2020)
 - [Patreon](https://patreon.com/CynthiaLabs)
 - `Monero`: 41kyWeeoVdK4quzQ4M9ikVGs6tCQCLfdx8jLExTNsAu2SF1QAyDqRdjfGM6EL8L9NpXwt89HJeAoGf1aoArk7nDr4AMMV4T
 </p>
@@ -107,6 +105,7 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/radioactive.gif?raw=true"><br></p>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
+<h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 
 ```bash
 To download the needed tools:
