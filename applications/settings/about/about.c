@@ -136,7 +136,7 @@ static DialogMessageButton fw_version_screen(DialogsApp* dialogs, DialogMessage*
     }
 
     dialog_message_set_header(message, "Firmware Info:", 0, 0, AlignLeft, AlignTop);
-    dialog_message_set_text(message, "FZFusion 0.74.3b11\ngithub.com/IamUSER/Flipper-Fusion", 0, 13, AlignLeft, AlignTop);
+    dialog_message_set_text(message, "FZFusion 0.75.0b1\nPurposeful Porpoise", 0, 13, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
     dialog_message_set_text(message, NULL, 0, 0, AlignLeft, AlignTop);
     dialog_message_set_header(message, NULL, 0, 0, AlignLeft, AlignTop);
