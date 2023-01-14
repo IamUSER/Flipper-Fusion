@@ -63,8 +63,9 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 - SFW Mode (PRO Mode in Fusion)
 - Jamming Files
 - Custom subghz presets
-- Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
-- Honda Keys (CVE-2022-27254)
+- Added new Battery display-type
+- Subghz and IR signal replication via gpio | Credits to @ankris812
+- Honda Keys (CVE-2022-27254) & Ford blockers
 - NSFW Animations tied to the level system. Read more above
 - New API Routes for Locale settings
 - Scrolling view for long file names in browser
@@ -246,4 +247,9 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode
 - <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!<br>
 
 
+----
+<h2 align="center">Contributors</h2>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55334727/212134625-21383102-02f3-453f-b1d7-8a9c65b27612.svg">
+</p>
 
