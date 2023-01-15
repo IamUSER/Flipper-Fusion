@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackboi.png?raw=true">
 <br>
-CODENAME: Potent Porpoise
+CODENAME: Potent Puffer
 </p>
 
 -----
@@ -27,8 +27,6 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 **If you like Xtreme Firmware and wish to help out, please contribute to the project ❤️**
 <br>
 
-- [Bunq - My bank](https://bunq.me/ClaraK)
-- [Paypal](https://paypal.me/RdX2020)
 - [Patreon](https://patreon.com/CynthiaLabs)
 - `Monero`: 41kyWeeoVdK4quzQ4M9ikVGs6tCQCLfdx8jLExTNsAu2SF1QAyDqRdjfGM6EL8L9NpXwt89HJeAoGf1aoArk7nDr4AMMV4T
 </p>
@@ -51,6 +49,7 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 [Added in Fusion]
 
 - Restored the Status Bar!
+- New Animations! (Feat. John Cena!)
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
@@ -65,8 +64,9 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 - SFW Mode (PRO Mode in Fusion)
 - Jamming Files
 - Custom subghz presets
-- Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
-- Honda Keys (CVE-2022-27254)
+- Added new Battery display-type
+- Subghz and IR signal replication via gpio | Credits to @ankris812
+- Honda Keys (CVE-2022-27254) & Ford blockers
 - NSFW Animations tied to the level system. Read more above
 - New API Routes for Locale settings
 - Scrolling view for long file names in browser
@@ -107,6 +107,7 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/radioactive.gif?raw=true"><br></p>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
+<h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 
 ```bash
 To download the needed tools:
@@ -247,4 +248,9 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode
 - <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!<br>
 
 
+----
+<h2 align="center">Contributors</h2>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55334727/212134625-21383102-02f3-453f-b1d7-8a9c65b27612.svg">
+</p>
 

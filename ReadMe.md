@@ -49,6 +49,7 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 [Added in Fusion]
 
 - Restored the Status Bar!
+- New Animations! (Feat. John Cena!)
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
