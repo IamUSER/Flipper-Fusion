@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackboi.png?raw=true">
 <br>
-CODENAME: Purposeful Porpoise
+CODENAME: Potent Puffer
 </p>
 
 -----
