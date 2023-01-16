@@ -37,19 +37,22 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
-Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/RoadMap.md
+Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadMmap.md
 
 ----
 <br>
 <h2 align="center">List of changes:</h2>
 
 Note: This repo is always updated with select Xtreme Firmware main branch commits. Thank you to everyone who contribues!
+<br><br>
+Full changelog can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/changelog.md
 
 ```txt
 [Added in Fusion]
 
 - Restored the Status Bar!
 - New Animations! (Feat. John Cena!)
+- AirTag Emulator Firmware Mod added to resources. Not implemented! (https://github.com/culturally/flipper-zero-airtag)
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
@@ -244,7 +247,7 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode
 - <a href="https://github.com/flipperdevices/flipperzero-firmware">FlipperZero Team</a> - Stock Firmware and the epic FlipperZero!<br>
 - <a href="https://github.com/ClaraCrazy/Flipper-Xtreme">ClaraCrazy</a> - Xtreme Firmware<br>
 - <a href="https://github.com/DarkFlippers/unleashed-firmware">DarkFlippers</a> - Unleashed Firmware and Apps<br>
-- <a href="urlhttps://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins<br>
+- <a href="https://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins<br>
 - <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!<br>
 
 
