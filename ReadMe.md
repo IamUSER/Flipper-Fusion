@@ -110,7 +110,7 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 ----
 <br>
 <p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/radioactive.gif?raw=true"><br></p>
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/radioactive.gif?raw=true"><br></p>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 <br><br>
