@@ -114,7 +114,8 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 <br><br>
-Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleaseh installed you can use the built in updater to load Fusion.
+Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleashed installed you can use the built in updater to load Fusion.
+<br>
 
 ```bash
 To download the needed tools:
