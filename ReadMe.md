@@ -16,7 +16,7 @@ CODENAME: Potent Puffer
 <br><br>
 This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find all the resource files.
 <br><br>
-If you just want the Resources check assets/resorces and have fun!
+If you just want the Resources check assets/resources and have fun!
 <br><br>
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 <br><br>
