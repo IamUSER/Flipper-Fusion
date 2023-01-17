@@ -39,7 +39,7 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
-Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
+Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
 ----
 <br>
@@ -47,7 +47,7 @@ Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main
 
 Note: This repo is always updated with select Xtreme Firmware main branch commits. Thank you to everyone who contribues!
 <br><br>
-Full changelog can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/changelog.md
+Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/changelog.md
 
 ```txt
 [Added in Fusion]
