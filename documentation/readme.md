@@ -1,7 +1,7 @@
 <h1 align="center"><p>&#9762; Flipper <code>Fusion</code> Firmware &#9762;</p></h1>
 
 <p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackboi.png?raw=true">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/hackboi.png?raw=true">
 <br>
 CODENAME: Potent Puffer
 </p>
@@ -14,12 +14,14 @@ CODENAME: Potent Puffer
 <br><br>
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
 <br><br>
-This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources.
+This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find all the resource files.
+<br><br>
+If you just want the Resources check assets/resorces and have fun!
 <br><br>
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 <br><br>
 <p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/Passport.png?raw=true"><br>
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/Passport.png?raw=true"><br>
 P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 <br><br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
@@ -111,6 +113,8 @@ Full changelog can be found at https://github.com/IamUSER/Flipper-Fusion/blob/ma
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/radioactive.gif?raw=true"><br></p>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
+<br><br>
+Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleaseh installed you can use the built in updater to load Fusion.
 
 ```bash
 To download the needed tools:
