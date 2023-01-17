@@ -39,7 +39,7 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
-Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadMmap.md
+Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
 ----
 <br>
