@@ -1,9 +1,9 @@
 <h1 align="center"><p>&#9762; Flipper <code>Fusion</code> Firmware &#9762;</p></h1>
 
 <p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/hackboi.png?raw=true">
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/hackboi.png?raw=true">
 <br>
-CODENAME: Purposeful Porpoise
+CODENAME: Potent Puffer
 </p>
 
 -----
@@ -14,12 +14,14 @@ CODENAME: Purposeful Porpoise
 <br><br>
 <i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
 <br><br>
-This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources.
+This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find all the resource files.
+<br><br>
+If you just want the Resources check assets/resorces and have fun!
 <br><br>
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 <br><br>
 <p align="center">
-  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/Passport.png?raw=true"><br>
+  <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/Passport.png?raw=true"><br>
 P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 <br><br>
 <h2 align="center">Support the Upstream Project - XFM (Not Mine)</h2>
@@ -37,18 +39,22 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
-Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/RoadMap.md
+Full roadmap can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadMmap.md
 
 ----
 <br>
 <h2 align="center">List of changes:</h2>
 
 Note: This repo is always updated with select Xtreme Firmware main branch commits. Thank you to everyone who contribues!
+<br><br>
+Full changelog can be found at https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/changelog.md
 
 ```txt
 [Added in Fusion]
 
 - Restored the Status Bar!
+- New Animations! (Feat. John Cena!)
+- AirTag Emulator Firmware Mod added to resources. Not implemented! (https://github.com/culturally/flipper-zero-airtag)
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
 - Touchtunes Jukebox Remotes - https://github.com/jimilinuxguy/flipperzero-touchtunes
@@ -63,8 +69,9 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
 - SFW Mode (PRO Mode in Fusion)
 - Jamming Files
 - Custom subghz presets
-- Subghz and IR signal replication via gpio | Credits to @ankris812, exact commit lost to time as of rn
-- Honda Keys (CVE-2022-27254)
+- Added new Battery display-type
+- Subghz and IR signal replication via gpio | Credits to @ankris812
+- Honda Keys (CVE-2022-27254) & Ford blockers
 - NSFW Animations tied to the level system. Read more above
 - New API Routes for Locale settings
 - Scrolling view for long file names in browser
@@ -106,6 +113,8 @@ Note: This repo is always updated with select Xtreme Firmware main branch commit
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/radioactive.gif?raw=true"><br></p>
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
+<br><br>
+Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleaseh installed you can use the built in updater to load Fusion.
 
 ```bash
 To download the needed tools:
@@ -242,7 +251,13 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode
 - <a href="https://github.com/flipperdevices/flipperzero-firmware">FlipperZero Team</a> - Stock Firmware and the epic FlipperZero!<br>
 - <a href="https://github.com/ClaraCrazy/Flipper-Xtreme">ClaraCrazy</a> - Xtreme Firmware<br>
 - <a href="https://github.com/DarkFlippers/unleashed-firmware">DarkFlippers</a> - Unleashed Firmware and Apps<br>
-- <a href="urlhttps://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins<br>
+- <a href="https://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins<br>
 - <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!<br>
 
+
+----
+<h2 align="center">Contributors</h2>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55334727/212134625-21383102-02f3-453f-b1d7-8a9c65b27612.svg">
+</p>
 

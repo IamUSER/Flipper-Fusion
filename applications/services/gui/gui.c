@@ -86,9 +86,9 @@ static void gui_redraw_status_bar(Gui* gui, bool need_attention) {
                 GUI_STATUS_BAR_Y + 1,
                 width + 2,
                 GUI_STATUS_BAR_WORKAREA_HEIGHT + 2);
-            canvas_set_color(gui->canvas, ColorWhite);
-            canvas_draw_box(
-                gui->canvas, 0, 0, canvas_width(gui->canvas), canvas_height(gui->canvas));
+            // canvas_set_color(gui->canvas, ColorWhite);
+            // canvas_draw_box(
+            //     gui->canvas, 0, 0, canvas_width(gui->canvas), canvas_height(gui->canvas));
             canvas_set_color(gui->canvas, ColorBlack);
             // ViewPort draw
             canvas_frame_set(

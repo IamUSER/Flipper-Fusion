@@ -9,12 +9,19 @@
 void power_draw_battery_callback(Canvas* canvas, void* context) {
     furi_assert(context);
     Power* power = context;
-    canvas_draw_icon(canvas, 0, 0, &I_Battery_26x8);
+    canvas_draw_icon(canvas, 0, 0, &I_Battery_25x8);
+    canvas_set_color(canvas, ColorWhite);
+    canvas_draw_box(canvas, -1, 0, 1, 8);
+    canvas_draw_box(canvas, 0, -1, 24, 1);
+    canvas_draw_box(canvas, 0, 8, 24, 1);
+    canvas_draw_box(canvas, 25, 1, 2, 6);
+    canvas_set_color(canvas, ColorBlack);
+    canvas_draw_box(canvas, 25, 2, 1, 4);
 
     if(power->info.gauge_is_ok) {
         char batteryPercentile[4];
         snprintf(batteryPercentile, sizeof(batteryPercentile), "%d", power->info.charge);
-        if((power->displayBatteryPercentage == 1) &&
+        if((power->displayBatteryPercentage == DISPLAY_BATTERY_PERCENT) &&
            (power->state !=
             PowerStateCharging)) { //if display battery percentage, black background white text
             canvas_set_font(canvas, FontBatteryPercent);
@@ -23,14 +30,14 @@ void power_draw_battery_callback(Canvas* canvas, void* context) {
             canvas_set_color(canvas, ColorWhite);
             canvas_draw_str_aligned(canvas, 11, 4, AlignCenter, AlignCenter, batteryPercentile);
         } else if(
-            (power->displayBatteryPercentage == 2) &&
+            (power->displayBatteryPercentage == DISPLAY_BATTERY_INVERTED_PERCENT) &&
             (power->state !=
              PowerStateCharging)) { //if display inverted percentage, white background black text
             canvas_set_font(canvas, FontBatteryPercent);
             canvas_set_color(canvas, ColorBlack);
             canvas_draw_str_aligned(canvas, 11, 4, AlignCenter, AlignCenter, batteryPercentile);
         } else if(
-            (power->displayBatteryPercentage == 3) &&
+            (power->displayBatteryPercentage == DISPLAY_BATTERY_RETRO_3) &&
             (power->state != PowerStateCharging)) { //Retro style segmented display, 3 parts
             if(power->info.charge > 25) {
                 canvas_draw_box(canvas, 2, 2, 6, 4);
@@ -42,7 +49,7 @@ void power_draw_battery_callback(Canvas* canvas, void* context) {
                 canvas_draw_box(canvas, 16, 2, 6, 4);
             }
         } else if(
-            (power->displayBatteryPercentage == 4) &&
+            (power->displayBatteryPercentage == DISPLAY_BATTERY_RETRO_5) &&
             (power->state != PowerStateCharging)) { //Retro style segmented display, 5 parts
             if(power->info.charge > 10) {
                 canvas_draw_box(canvas, 2, 2, 3, 4);
@@ -58,6 +65,58 @@ void power_draw_battery_callback(Canvas* canvas, void* context) {
             }
             if(power->info.charge > 90) {
                 canvas_draw_box(canvas, 18, 2, 3, 4);
+            }
+        } else if(
+            (power->displayBatteryPercentage == DISPLAY_BATTERY_BAR_PERCENT) &&
+            (power->state != PowerStateCharging) && // Default bar display with percentage
+            (power->info.voltage_battery_charging >=
+             4.2)) { // not looking nice with low voltage indicator
+            canvas_set_font(canvas, FontBatteryPercent);
+
+            // align charge dispaly value with digits to draw
+            uint8_t bar_charge = power->info.charge;
+            if(bar_charge > 23 && bar_charge < 38) {
+                bar_charge = 23;
+            } else if(bar_charge >= 38 && bar_charge < 62) {
+                bar_charge = 50;
+            } else if(bar_charge >= 62 && bar_charge < 74) {
+                bar_charge = 74;
+            }
+            canvas_set_color(canvas, ColorBlack);
+            canvas_draw_box(canvas, 1, 1, (bar_charge * 22) / 100, 6);
+
+            // drawing digits
+            if(bar_charge < 38) { // both digits are black
+                canvas_set_color(canvas, ColorBlack);
+                canvas_draw_str_aligned(
+                    canvas, 11, 4, AlignCenter, AlignCenter, batteryPercentile);
+            } else if(bar_charge >= 38 && bar_charge < 74) { // first digit is white
+                canvas_set_color(canvas, ColorWhite);
+
+                // first
+                char batteryPercentileFirstDigit[2];
+                snprintf(
+                    batteryPercentileFirstDigit,
+                    sizeof(batteryPercentileFirstDigit),
+                    "%c",
+                    batteryPercentile[0]);
+                canvas_draw_str_aligned(
+                    canvas, 9, 4, AlignCenter, AlignCenter, batteryPercentileFirstDigit);
+
+                // second
+                char batteryPercentileSecondDigit[2];
+                snprintf(
+                    batteryPercentileSecondDigit,
+                    sizeof(batteryPercentileSecondDigit),
+                    "%c",
+                    batteryPercentile[1]);
+                canvas_set_color(canvas, ColorBlack);
+                canvas_draw_str_aligned(
+                    canvas, 15, 4, AlignCenter, AlignCenter, batteryPercentileSecondDigit);
+            } else { // charge >= 62, both digits are white
+                canvas_set_color(canvas, ColorWhite);
+                canvas_draw_str_aligned(
+                    canvas, 11, 4, AlignCenter, AlignCenter, batteryPercentile);
             }
         } else { //default bar display, added here to serve as fallback/default behaviour.
             canvas_draw_box(canvas, 2, 2, (power->info.charge + 4) / 5, 4);
@@ -82,7 +141,8 @@ void power_draw_battery_callback(Canvas* canvas, void* context) {
         if(power->state == PowerStateCharging) {
             canvas_set_bitmap_mode(canvas, 1);
             // TODO: replace -1 magic for uint8_t with re-framing
-            if(power->displayBatteryPercentage == 1) {
+            if(power->displayBatteryPercentage == DISPLAY_BATTERY_PERCENT ||
+               power->displayBatteryPercentage == DISPLAY_BATTERY_BAR_PERCENT) {
                 canvas_set_color(canvas, ColorBlack);
                 canvas_draw_box(canvas, 1, 1, 22, 6);
                 canvas_draw_icon(canvas, 2, -1, &I_Charging_lightning_9x10);
@@ -91,7 +151,7 @@ void power_draw_battery_callback(Canvas* canvas, void* context) {
                 canvas_set_font(canvas, FontBatteryPercent);
                 canvas_draw_str_aligned(
                     canvas, 16, 4, AlignCenter, AlignCenter, batteryPercentile);
-            } else if(power->displayBatteryPercentage == 2) {
+            } else if(power->displayBatteryPercentage == DISPLAY_BATTERY_INVERTED_PERCENT) {
                 canvas_set_color(canvas, ColorWhite);
                 canvas_draw_box(canvas, 1, 1, 22, 6);
                 canvas_draw_icon(canvas, 2, -1, &I_Charging_lightning_9x10);
@@ -115,7 +175,7 @@ void power_draw_battery_callback(Canvas* canvas, void* context) {
 
 static ViewPort* power_battery_view_port_alloc(Power* power) {
     ViewPort* battery_view_port = view_port_alloc();
-    view_port_set_width(battery_view_port, icon_get_width(&I_Battery_26x8));
+    view_port_set_width(battery_view_port, icon_get_width(&I_Battery_25x8));
     view_port_draw_callback_set(battery_view_port, power_draw_battery_callback, power);
     gui_add_view_port(power->gui, battery_view_port, GuiLayerStatusBarRight);
     return battery_view_port;
