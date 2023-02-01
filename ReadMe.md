@@ -224,9 +224,9 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 <br><br>
 Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleashed installed you can use the built in updater to load Fusion.
-<br>
+<br><br>
 If you wish to speed up the install, remove/rename the resources.tar file from the firmware folder pre-flash and then unpack it to the SD card afterward.
-<br>
+<br><br>
 
 ```bash
 To download the needed tools:
