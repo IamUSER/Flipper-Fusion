@@ -15,7 +15,7 @@ void desktop_scene_fault_on_enter(void* context) {
 
     Popup* popup = desktop->hw_mismatch_popup;
     popup_set_context(popup, desktop);
-    if(XTREME_SETTINGS()->nsfw_mode) {
+    if(XTREME_SETTINGS()->pro_mode) {
         popup_set_header(
             popup,
             "Slut passed out\n but is now back",

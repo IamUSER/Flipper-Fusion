@@ -65,11 +65,11 @@ We wrote a powerful yet easy-to-use application specifically for our Firmware, t
 
 <img src="https://user-images.githubusercontent.com/55334727/215137728-529274e8-ab95-4164-a2a0-9ff712c9d3c7.gif" align="left" width="400px"/>
 
-<code>Base Graphics:</code> Change the fallback assets used. Its either SFW (default) or NSFW
+<code>Base Graphics:</code> Change the fallback assets used. Its either OEM (default) or PRO
 <br><code>Asset Pack:</code> Allows you to easily customize your firmware, more on that below 
 <br><code>Anim Speed:</code> Speed in which the animations play
 <br><code>Cycle Anims:</code> Duration of how long animations are played before switching to next
-<br><code>Unlock Anims:</code> Custom setting just for NSFW fallback animations. Figure it out ;)
+<br><code>Unlock Anims:</code> Custom setting just for PRO fallback animations. Figure it out ;)
 <br><code>Battery style:</code> Classic Firmware battery style toggle, just at a more convenient place
 <br><code>XP Level:</code> Changes your Flippers level
 <br><code>SubGhz Extend:</code> Allows you to extend the subghz range beyond what FZ devs planned
@@ -114,7 +114,7 @@ With this new system in place, it allows for some cool stuff like locking animat
 <details>
 <summary>Our example</summary>
 
-In our case, this is used with the NSFW animations. Dont worry, these are disabled by default because I know not everyone likes to see my / anime tits and thats fine. Anyways.. each level gives a brand new background animation, they also become more and more lewd over time. (Funfact for those reading.. thats why the repository has this warning. Github doesnt like my tits :c)
+In our case, this is used with the PRO animations. Dont worry, these are disabled by default because I know not everyone likes to see my / anime tits and thats fine. Anyways.. each level gives a brand new background animation, they also become more and more lewd over time. (Funfact for those reading.. thats why the repository has this warning. Github doesnt like my tits :c)
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
@@ -145,13 +145,13 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 ```txt
 [Added in XFW]
 
-- SFW Mode (PRO Mode in Fusion)
+- OEM Mode (PRO Mode in Fusion)
 - Xtreme App
 - Asset Packs
 - More UI options
 - A new battery display-type
 - Scrolling view for long file names in browser
-- NSFW Animations tied to the level system. Read more above
+- PRO Animations tied to the level system. Read more above
 - Folder handling for empty ones (Now indicate they are empty)
 
 - Jamming Files
@@ -186,7 +186,7 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 
 - Bootloop and DFU Crashfix by jbohack
 - Passport crash on high level
-- SFW / Dummy_mode getting you XP
+- OEM / Dummy_mode getting you XP
 - Leveling system
 - Mood system
 ```
@@ -226,7 +226,7 @@ $ ./fbt COMPACT=1 DEBUG=0 updater_package
 
 **NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
 <br><br>
-If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
+If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
 <br><br>
 **Enable PRO mode with the steps listed below**
 <br>

@@ -6,8 +6,8 @@
 static void xtreme_settings_scene_start_base_graphics_changed(VariableItem* item) {
     XtremeSettingsApp* app = variable_item_get_context(item);
     bool value = variable_item_get_current_value_index(item);
-    variable_item_set_current_value_text(item, value ? "NSFW" : "SFW");
-    XTREME_SETTINGS()->nsfw_mode = value;
+    variable_item_set_current_value_text(item, value ? "PRO" : "OEM");
+    XTREME_SETTINGS()->pro_mode = value;
     app->settings_changed = true;
     app->assets_changed = true;
 }
@@ -144,8 +144,8 @@ void xtreme_settings_scene_start_on_enter(void* context) {
         2,
         xtreme_settings_scene_start_base_graphics_changed,
         app);
-    variable_item_set_current_value_index(item, xtreme_settings->nsfw_mode);
-    variable_item_set_current_value_text(item, xtreme_settings->nsfw_mode ? "NSFW" : "SFW");
+    variable_item_set_current_value_index(item, xtreme_settings->pro_mode);
+    variable_item_set_current_value_text(item, xtreme_settings->pro_mode ? "PRO" : "OEM");
 
     item = variable_item_list_add(
         var_item_list,

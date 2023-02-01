@@ -48,12 +48,12 @@ void animation_handler_select_manifest() {
     }
     if (!use_asset_pack) {
         furi_string_set(anim_dir, BASE_ANIMATION_DIR);
-        if(xtreme_settings->nsfw_mode) {
-            furi_string_cat_str(anim_dir, "/nsfw");
-            FURI_LOG_I(TAG, "NSFW Manifest selected");
+        if(xtreme_settings->pro_mode) {
+            furi_string_cat_str(anim_dir, "/PRO");
+            FURI_LOG_I(TAG, "PRO Manifest selected");
         } else {
-            furi_string_cat_str(anim_dir, "/sfw");
-            FURI_LOG_I(TAG, "SFW Manifest selected");
+            furi_string_cat_str(anim_dir, "/oem");
+            FURI_LOG_I(TAG, "OEM Manifest selected");
         }
         furi_string_printf(manifest, "%s/manifest.txt", furi_string_get_cstr(anim_dir));
     }

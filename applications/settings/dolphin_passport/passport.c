@@ -40,16 +40,16 @@ static void render_callback(Canvas* canvas, void* _ctx) {
     const char* mood_str = NULL;
     const Icon* portrait = NULL;
 
-    if(XTREME_SETTINGS()->nsfw_mode) {
+    if(XTREME_SETTINGS()->pro_mode) {
         if(stats->butthurt <= 4) {
             portrait = xtreme_assets->I_passport_happy_46x49;
-            mood_str = "Status: Wet";
+            mood_str = "Status: Hunting";
         } else if(stats->butthurt <= 9) {
             portrait = xtreme_assets->I_passport_okay_46x49;
-            mood_str = "Status: Horny";
+            mood_str = "Status: Online";
         } else {
             portrait = xtreme_assets->I_passport_bad_46x49;
-            mood_str = "Status: Desperate";
+            mood_str = "Status: Offline";
         }
     } else {
         if(stats->butthurt <= 4) {
