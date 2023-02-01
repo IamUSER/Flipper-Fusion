@@ -18,7 +18,7 @@ void desktop_scene_fault_on_enter(void* context) {
     if(XTREME_SETTINGS()->pro_mode) {
         popup_set_header(
             popup,
-            "Slut passed out\n but is now back",
+            "System Error\n Reboot Complete...",
             60,
             14 + STATUS_BAR_Y_SHIFT,
             AlignCenter,

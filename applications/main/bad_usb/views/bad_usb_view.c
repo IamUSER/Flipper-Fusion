@@ -69,8 +69,8 @@ static void bad_usb_draw_callback(Canvas* canvas, void* _model) {
         canvas_draw_icon(canvas, 4, 26, &I_Clock_18x18);
         canvas_set_font(canvas, FontPrimary);
         if(xtreme_settings->pro_mode) {
-            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Plug me");
-            canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "in, Daddy");
+            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Attach to");
+            canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "target...");
         } else {
             canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Connect to");
             canvas_draw_str_aligned(canvas, 127, 43, AlignRight, AlignBottom, "a device");
@@ -79,7 +79,7 @@ static void bad_usb_draw_callback(Canvas* canvas, void* _model) {
         canvas_draw_icon(canvas, 4, 26, &I_Clock_18x18);
         canvas_set_font(canvas, FontPrimary);
         if(xtreme_settings->pro_mode) {
-            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Will cum");
+            canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Will execute");
         } else {
             canvas_draw_str_aligned(canvas, 127, 31, AlignRight, AlignBottom, "Will run");
         }

@@ -1,6 +1,6 @@
 App(
     appid="xtreme_settings",
-    name="Xtreme FW",
+    name="Xtra Settings",
     apptype=FlipperAppType.SETTINGS,
     entry_point="xtreme_settings_app",
     stack_size=2 * 1024,
