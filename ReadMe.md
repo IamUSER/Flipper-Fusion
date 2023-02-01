@@ -6,6 +6,9 @@
 CODENAME: Potent Puffer
 </p>
 
+<p align="center">
+<h2 align="center">Made Possible By:</h2>
+<br>
   <img src="https://user-images.githubusercontent.com/55334727/215170306-051eeb8f-8f72-437f-8c2d-0e4be009bdad.png">
 </p>
 
@@ -58,12 +61,14 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 -----
 <br>
-<h2 align="center">Xtreme Settings:</h2>
+<h2 align="center">Xtra [Xtreme] Settings:</h2>
 
 
 We wrote a powerful yet easy-to-use application specifically for our Firmware, that gives you easy-access to all the fancy things we implemented:
 
-<img src="https://user-images.githubusercontent.com/55334727/215137728-529274e8-ab95-4164-a2a0-9ff712c9d3c7.gif" align="left" width="400px"/>
+<img src="https://user-images.githubusercontent.com/55334727/215137728-529274e8-ab95-4164-a2a0-9ff712c9d3c7.gif" align="center" width="400px"/>
+<br>
+<br>
 
 <code>Base Graphics:</code> Change the fallback assets used. Its either OEM (default) or PRO
 <br><code>Asset Pack:</code> Allows you to easily customize your firmware, more on that below 
