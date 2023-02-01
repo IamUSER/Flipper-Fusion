@@ -49,7 +49,7 @@ void animation_handler_select_manifest() {
     if (!use_asset_pack) {
         furi_string_set(anim_dir, BASE_ANIMATION_DIR);
         if(xtreme_settings->pro_mode) {
-            furi_string_cat_str(anim_dir, "/PRO");
+            furi_string_cat_str(anim_dir, "/pro");
             FURI_LOG_I(TAG, "PRO Manifest selected");
         } else {
             furi_string_cat_str(anim_dir, "/oem");
