@@ -247,7 +247,7 @@ $ ./fbt COMPACT=1 DEBUG=0 updater_package -c
 
 ```
 
-**NOTE: If you are coming from a different FW and encounter application errors, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default. This does `NOT` remove any of your saved files! Delete the folder and reflash if necessary!**
+**NOTE: If you are coming from a different/older Firmware and encounter application errors, it is recommended to overwrite the "apps" folder on the SD card after updating by unpacking the "apps" folder from the resources.tar. This folder houses all the .fap files, which may not update to the correct API versions by default. This does `NOT` remove any of your saved files! If you have custom apps installed you should know what you're doing.**
 <br><br>
 If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
 <br><br>
