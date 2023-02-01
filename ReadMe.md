@@ -114,7 +114,8 @@ With this new system in place, it allows for some cool stuff like locking animat
 <details>
 <summary>Our example</summary>
 
-In our case, this is used with the PRO animations. Dont worry, these are disabled by default because I know not everyone likes to see my / anime tits and thats fine. Anyways.. each level gives a brand new background animation, they also become more and more lewd over time. (Funfact for those reading.. thats why the repository has this warning. Github doesnt like my tits :c)
+In our case, this is used with the PRO animations. Dont worry, these are disabled by default because I know not everyone likes to see my / anime tits and thats fine. Anyways.. each level gives a brand new background animation, they also become more and more lewd over time. (Funfact for those reading.. thats why the repository has this warning. Github doesnt like Claras tits :c)
+</details>
 
 <p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
 <br><br>
