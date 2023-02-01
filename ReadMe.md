@@ -50,6 +50,8 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 ----
 <br>
 <h2 align="center">Roadmap:</h2>
+- Desimpify! You're alpha, you deserve alpha. So I will work on custom GUI, graphics, and animation mods to add to your Chad.
+
 - Asset Packs: Are you tired of having to remake your custom animations after every update, switching manifests and having a hard time sharing them, especially once you modify scanning assets too? Those times are over. Scroll down to learn more
 
 - Giving the level system a purpose: Right now, each level unlocks a new wallpaper. More on that below
@@ -57,7 +59,8 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 - Clean upgraded code: Some people wrote updates to certain files. These are... painful, to say the least. Here its all built with perfection in mind and integrated in a mostly clean way. I invite you all to compare the code with theirs.
 
 - Up2Date: This firmware receives updates from a few repositories, not just from its Upstream. If there are functional, but yet un-merged Pull requests on another flipper firmware that are good, they will be in here!
-
+<br><br>
+Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
 -----
 <br>
@@ -249,7 +252,7 @@ $ ./fbt COMPACT=1 DEBUG=0 updater_package -c
 
 **NOTE: If you are coming from a different/older firmware and encounter application errors, it is recommended to overwrite the "apps" folder on the SD card after updating by unpacking the "apps" folder from the resources.tar to the SD card. This folder houses all the .fap files, which may not update to the correct API versions by default. This does `NOT` remove any of your saved files! If you have custom apps installed you should know what you're doing.**
 <br><br>
-If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
+If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
 <br><br>
 **Enable PRO mode with the steps listed below**
 <br>
