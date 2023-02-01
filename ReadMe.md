@@ -247,7 +247,7 @@ $ ./fbt COMPACT=1 DEBUG=0 updater_package -c
 
 ```
 
-**NOTE: If you are coming from a different FW, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). This does `NOT` remove any of your saved files!**
+**NOTE: If you are coming from a different FW and encounter application errors, it is recommended to delete / clear your "apps" folder on the SD card prior to updating. This folder houses all the .fap files, which do not update to the correct API versions by default. This does `NOT` remove any of your saved files! Delete the folder and reflash if necessary!**
 <br><br>
 If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
 <br><br>
@@ -355,7 +355,7 @@ If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode
 <h2 align="center">Known Bugs:</h2>
 
 ```txt
-- None at this time.
+- After upgrading to multiple different firmware your Flipper may run out of builtin memory. If you cannot update this is likely the case. You will need to clear your internal storage from the Settings > Storage Menu. You may lose settings and XP! Use the Xtra Settings to readjust your XP as needed.
 ```
 
 ----
