@@ -16,21 +16,20 @@ This firmware is a complete overhaul of the [Official Firmware](https://github.c
 
 -----
 <br>
-<h2 align="center">What makes it special?</h2>
+<h2 align="center">What makes FZ Fusion special?</h2>
 
-<p>If you can't tell... This is a fork of a fork of a fork. 
-XFW Team spent many hours perfecting this code even further, and getting the most out of it.
+<p>This is a fork of a fork of a fork. XFW Team spent many hours perfecting this code even further, and getting the most out of it. I just spent time screwing bolts into its neck...
 
 This fork of Xtreme Firmware is designed to include a HUGE RESOURCE LIBRARY with custom modifications and additions.
-<br><br>
+
 <i>Thanks to <b>FlipperZero, ClaraCrazy and XFW Contributors, Unleased Team, RogueMaster, UberGuidoZ, and many more!</b></i>
-<br><br>
+
 This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find and aggragate all the included resource files.
-<br><br>
+
 If you just want the Resources check assets/resources and have fun!
-<br><br>
+
 <b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
-<br><br>
+
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/Passport.png?raw=true"><br>
 P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
