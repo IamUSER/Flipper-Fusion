@@ -12,9 +12,6 @@ CODENAME: Potent Puffer
   <img src="https://user-images.githubusercontent.com/55334727/215170306-051eeb8f-8f72-437f-8c2d-0e4be009bdad.png">
 </p>
 
-[Intro](https://github.com/ClaraCrazy/Flipper-Xtreme#What-makes-it-special) | [Animations](https://github.com/ClaraCrazy/Flipper-Xtreme#Animations--Asset-Packs) | [Docs](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki) | [Changelog](https://github.com/ClaraCrazy/Flipper-Xtreme#list-of-changes) | [Known bugs](https://github.com/ClaraCrazy/Flipper-Xtreme#Known-bugs) | [Install](https://github.com/ClaraCrazy/Flipper-Xtreme#Install) | [Build](https://github.com/ClaraCrazy/Flipper-Xtreme#build-it-yourself) | [Discord](https://discord.gg/flipper-xtreme)
------
-
 This firmware is a complete overhaul of the [Official Firmware](https://github.com/flipperdevices/flipperzero-firmware), it also features lots of awesome code-bits from [Unleashed](https://github.com/DarkFlippers/unleashed-firmware).
 
 -----
@@ -26,7 +23,7 @@ XFW Team spent many hours perfecting this code even further, and getting the mos
 
 This fork of Xtreme Firmware is designed to include a HUGE RESOURCE LIBRARY with custom modifications and additions.
 <br><br>
-<i>Thanks to <b>FlipperZero, ClaraCrazy and XFW WContributors, Unleased Team, RogueMaster, and UberGuidoZ.</b></i>
+<i>Thanks to <b>FlipperZero, ClaraCrazy and XFW Contributors, Unleased Team, RogueMaster, UberGuidoZ, and many more!</b></i>
 <br><br>
 This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find and aggragate all the included resource files.
 <br><br>
