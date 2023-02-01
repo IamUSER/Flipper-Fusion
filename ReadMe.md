@@ -22,13 +22,13 @@ This firmware is a complete overhaul of the [Official Firmware](https://github.c
 <h2 align="center">What makes it special?</h2>
 
 <p>If you can't tell... This is a fork of a fork of a fork. 
-We have spent many hours perfecting this code even further, and getting the most out of it.
+XFW Team spent many hours perfecting this code even further, and getting the most out of it.
 
-The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of whats going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.
+This fork of Xtreme Firmware is designed to include a HUGE RESOURCE LIBRARY with custom modifications and additions.
 <br><br>
-<i>Thanks to <b>FlipperZero, Unleased Team, RogueMaster, ClaraCrazy, and UberGuidoZ.</b></i>
+<i>Thanks to <b>FlipperZero, ClaraCrazy and XFW WContributors, Unleased Team, RogueMaster, and UberGuidoZ.</b></i>
 <br><br>
-This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find all the resource files.
+This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find and aggragate all the included resource files.
 <br><br>
 If you just want the Resources check assets/resources and have fun!
 <br><br>
@@ -139,8 +139,11 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 ```txt
 [Added in Fusion]
 
+- Edit stock Xtreme Firmware to suit my maniacal ends.
+- Make GUI more PRO.
+- Add Asset Packs - Squatch, RM, Unleashed, etc.
 - Restored the Status Bar!
-- New Animations! (Feat. John Cena!)
+- New Animation! (Feat. John Cena!)
 - AirTag Emulator Firmware Mod added to resources. Not implemented! (https://github.com/culturally/flipper-zero-airtag)
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
@@ -153,6 +156,13 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 ```txt
 [Added in XFW]
 
+- Xtreme App
+- Asset Packs
+- More UI options
+- A new battery display-type
+- Scrolling view for long file names in browser
+- NSFW Animations tied to the level system. Read more above
+- Folder handling for empty ones (Now indicate they are empty)
 - OEM Mode (PRO Mode in Fusion)
 - Xtreme App
 - Asset Packs
@@ -214,6 +224,8 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 <br><br>
 Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleashed installed you can use the built in updater to load Fusion.
+<br>
+If you wish to speed up the install, remove/rename the resources.tar file from the firmware folder pre-flash and then unpack it to the SD card afterward.
 <br>
 
 ```bash
