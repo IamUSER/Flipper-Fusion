@@ -56,6 +56,9 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 - Up2Date: This firmware receives updates from a few repositories, not just from its Upstream. If there are functional, but yet un-merged Pull requests on another flipper firmware that are good, they will be in here!
 <br><br>
+
+<p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
+<br><br>
 Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
 -----
@@ -122,10 +125,6 @@ With this new system in place, it allows for some cool stuff like locking animat
 
 In our case, this is used with the PRO animations. Dont worry, these are disabled by default because I know not everyone likes to see my / anime tits and thats fine. Anyways.. each level gives a brand new background animation, they also become more and more lewd over time. (Funfact for those reading.. thats why the repository has this warning. Github doesnt like Claras tits :c)
 </details>
-
-<p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
-<br><br>
-Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
 ----
 <br>
