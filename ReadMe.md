@@ -66,7 +66,9 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 
 We wrote a powerful yet easy-to-use application specifically for our Firmware, that gives you easy-access to all the fancy things we implemented:
 
-<img src="https://user-images.githubusercontent.com/55334727/215137728-529274e8-ab95-4164-a2a0-9ff712c9d3c7.gif" align="center" width="400px"/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/55334727/215137728-529274e8-ab95-4164-a2a0-9ff712c9d3c7.gif">
+</p>
 <br>
 <br>
 
@@ -227,6 +229,9 @@ $ ./fbt resources dolphin_ext
 
 Build firmware:
 $ ./fbt COMPACT=1 DEBUG=0 updater_package
+
+Clean Build Cache:
+$ ./fbt COMPACT=1 DEBUG=0 updater_package -c
 
 ```
 
