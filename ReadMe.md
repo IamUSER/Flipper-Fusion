@@ -354,9 +354,9 @@ If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode
 <br>
 <h2 align="center">Known Bugs:</h2>
 
-```txt
+<p>
 - After upgrading to multiple different firmware your Flipper may run out of builtin memory. If you cannot update this is likely the case. You will need to clear your internal storage from the Settings > Storage Menu. You may lose settings and XP! Use the Xtra Settings to readjust your XP as needed.
-```
+<p>
 
 ----
 <br>
@@ -368,7 +368,7 @@ If you dont like the default asthetic, ClaraCrazy added a OEM mode (Now PRO Mode
 - <a href="https://github.com/DarkFlippers/unleashed-firmware">DarkFlippers</a> - Unleashed Firmware and Apps<br>
 - <a href="https://github.com/RogueMaster/flipperzero-firmware-wPlugins">RogueMaster</a> - w/Plugins<br>
 - <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoZ</a> - Centralizer of quality flipper files!<br>
-
+</p>
 
 ----
 <h2 align="center">Contributors</h2>
