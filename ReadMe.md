@@ -162,7 +162,7 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 - Scrolling view for long file names in browser
 - NSFW Animations tied to the level system. Read more above
 - Folder handling for empty ones (Now indicate they are empty)
-- OEM Mode (PRO Mode in Fusion)
+- SFW Mode (OEM Mode in Fusion)
 - Xtreme App
 - Asset Packs
 - More UI options
@@ -222,7 +222,7 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 <h2 align="center">Install my mutant firmware by building it yourself:</h2>
 <h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
 <br><br>
-Requires builtin updater app! Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleashed installed you can use the built in updater to load Fusion.
+<b>Requires USB Flash or Builtin Updater App!</b> Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleashed installed you can use the built in updater to load Fusion.
 <br><br>
 
 ```bash
@@ -241,6 +241,9 @@ $ ./fbt COMPACT=1 DEBUG=0 updater_package
 
 Clean Build Cache:
 $ ./fbt COMPACT=1 DEBUG=0 updater_package -c
+
+To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
+$ ./fbt flash_usb
 
 ```
 
