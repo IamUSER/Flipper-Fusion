@@ -50,7 +50,7 @@ static void bad_usb_draw_callback(Canvas* canvas, void* _model) {
     if((model->state.state == BadUsbStateIdle) || (model->state.state == BadUsbStateDone) ||
        (model->state.state == BadUsbStateNotConnected)) {
         if(xtreme_settings->pro_mode) {
-            elements_button_center(canvas, "Cum");
+            elements_button_center(canvas, "Go!");
         } else {
             elements_button_center(canvas, "Start");
         }
