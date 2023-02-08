@@ -20,15 +20,13 @@ This firmware is a complete overhaul of the [Official Firmware](https://github.c
 
 <p>This is a fork of a fork of a fork. XFW Team spent many hours perfecting this code even further, and getting the most out of it. I just spent time screwing bolts into its neck...
 
-This fork of Xtreme Firmware is designed to include a HUGE RESOURCE LIBRARY with custom modifications and additions.
+This fork of Xtreme Firmware includes a HUGE RESOURCE LIBRARY with custom modifications and additions.
 
 <i>Thanks to <b>FlipperZero, ClaraCrazy and XFW Contributors, Unleased Team, RogueMaster, UberGuidoZ, and many more!</b></i>
 
-This firmware is very large because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find and aggragate all the included resource files.
+This firmware is xtra thicc because it attempts to include and organize many public asset repos that provide IR, SUB, NFC, IBTN, and other resources. I do not recommend this for well established Flippers! However if you are a new Flipper Operator and would like to take a quick shortcut, this will flash faster than you will find and aggragate all the included resource files.
 
 If you just want the Resources check assets/resources and have fun!
-
-<b>No excuses: I am new to GitHub and coding in general, please let me know if I have not properly attributed your work. Submit a pull request and I will validate and promote your work.</b>
 
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/Passport.png?raw=true"><br>
@@ -46,18 +44,9 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 ----
 <br>
 <h2 align="center">Roadmap:</h2>
-- Desimpify! You're alpha, you deserve alpha. So I will work on custom GUI, graphics, and animation mods to add to your Chad.
+- Desimpification! Clara is great! The stock Xtreme assets... Not so much.
 
-- Asset Packs: Are you tired of having to remake your custom animations after every update, switching manifests and having a hard time sharing them, especially once you modify scanning assets too? Those times are over. Scroll down to learn more
-
-- Giving the level system a purpose: Right now, each level unlocks a new wallpaper. More on that below
-
-- Clean upgraded code: Some people wrote updates to certain files. These are... painful, to say the least. Here its all built with perfection in mind and integrated in a mostly clean way. I invite you all to compare the code with theirs.
-
-- Up2Date: This firmware receives updates from a few repositories, not just from its Upstream. If there are functional, but yet un-merged Pull requests on another flipper firmware that are good, they will be in here!
-<br><br>
-
-<p>I just want to simplify, expand, unify, and make the FlipperZero a professional use device. Ya know, where your friends and colleagues don't think you're a porn obsessed weeb. Hack for peace! XO
+- Simplify, expand, unify, and make the FlipperZero a PRO device.
 <br><br>
 Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
@@ -66,22 +55,17 @@ Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/
 <h2 align="center">Xtra [Xtreme] Settings:</h2>
 
 
-We wrote a powerful yet easy-to-use application specifically for our Firmware, that gives you easy-access to all the fancy things we implemented:
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/55334727/215137728-529274e8-ab95-4164-a2a0-9ff712c9d3c7.gif">
-</p>
+XFW adds a powerful yet easy-to-use settings application, that gives you easy-access to the followign features:
 <br>
 <br>
-
 <code>Base Graphics:</code> Change the fallback assets used. Its either OEM (default) or PRO
 <br><code>Asset Pack:</code> Allows you to easily customize your firmware, more on that below 
 <br><code>Anim Speed:</code> Speed in which the animations play
 <br><code>Cycle Anims:</code> Duration of how long animations are played before switching to next
-<br><code>Unlock Anims:</code> Custom setting just for PRO fallback animations. Figure it out ;)
+<br><code>Unlock Anims:</code> Custom setting just for PRO fallback animations.
 <br><code>Battery style:</code> Classic Firmware battery style toggle, just at a more convenient place
 <br><code>XP Level:</code> Changes your Flippers level
-<br><code>SubGhz Extend:</code> Allows you to extend the subghz range beyond what FZ devs planned
+<br><code>SubGhz Extend:</code> Allows you to extend the subghz range beyond what FZ devs planned. (Potential Hardware Damage!)
 <br><code>SubGhz Bypass:</code> Allows you to bypass the subghz region locks of the Flipper
 
 <br clear="left"/>
@@ -90,10 +74,10 @@ We wrote a powerful yet easy-to-use application specifically for our Firmware, t
 <br>
 <h2 align="center">Animations / Asset Packs:</h2>
 
-We created our own, new & improved Animation / Asset system, that we can finally reveal. It lets you to create and cycle through your own `Asset Packs` with only a few button presses, allowing you to easily load custom Animations and Icons like never before.
+XFW adds a new & improved Animation / Asset system. It lets you to create and cycle through your own `Asset Packs` with only a few button presses, allowing you to easily load custom Animations and Icons like never before.
 
 <img src="https://user-images.githubusercontent.com/55334727/214010675-9eddb8f5-1dd6-4cf4-a0ee-e37af8b6c933.PNG" align="left" width="200px"/>
-You can easily create your own pack, or find some user made ones in the discord channel. Check <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/1.-File-Formats">here</a> for a tutorial on creating your own. Essentially, we got our own <code>Anims</code> & <code>Icons</code> folders, inside each <code>Asset Pack</code>.
+You can easily create your own pack. Check <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/1.-File-Formats">here</a> for a tutorial on creating your own. Essentially, add your own <code>Anims</code> & <code>Icons</code> folders, inside each <code>Asset Pack</code>.
 
 <br clear="left"/>
 
@@ -120,19 +104,13 @@ This Firmware has 30 levels, not just the basic 3 the official one has.
 
 With this new system in place, it allows for some cool stuff like locking animations behind a certain level. This can be done fairly easy: The idle_animations are tied to the level system. Specifically, the `Min level` variable of your manifest file is used here. Each level you reach, unlocks a new animation. The higher your level, the more animations people can see.
 
-<details>
-<summary>Our example</summary>
-
-In our case, this is used with the PRO animations. Dont worry, these are disabled by default because I know not everyone likes to see my / anime tits and thats fine. Anyways.. each level gives a brand new background animation, they also become more and more lewd over time. (Funfact for those reading.. thats why the repository has this warning. Github doesnt like Claras tits :c)
-</details>
-
 ----
 <br>
-<h2 align="center">List of changes:</h2>
+<h2 align="center">List of changes added to Official Firmware:</h2>
 
 Note: This repo is always updated with select Xtreme Firmware main branch commits. Thank you to everyone who contribues!
 <br><br>
-Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/changelog.md
+Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/changelog.md
 
 ```txt
 [Added in Fusion]
@@ -169,13 +147,11 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 - Scrolling view for long file names in browser
 - PRO Animations tied to the level system. Read more above
 - Folder handling for empty ones (Now indicate they are empty)
-
 - Jamming Files
 - Custom subghz presets
 - Multiple NFC protocols
 - Subghz and IR signal replication via gpio | Credits to @ankris812
 - Honda Keys (CVE-2022-27254) & Ford blockers
-
 - New API Routes for Locale settings
 ```
 ```txt
@@ -191,7 +167,6 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 - Weather App
 - Applications now use above mentioned API Routes
 - All Assets
-
 - Tons of apps
 - Massive compiler re-do
 - About 1k files to speed things up a lot
@@ -218,39 +193,49 @@ Full changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentatio
 <br>
 <p align="center">
   <img src="https://github.com/IamUSER/Flipper-Fusion/blob/main/images/radioactive.gif?raw=true"><br></p>
-<h2 align="center">Install my mutant firmware by building it yourself:</h2>
-<h3 align="center">Freshest Firmware is in the <b>Reactor</b> Branch!</h3>
+<h2 align="center">Install this mutant firmware by building it yourself:</h2>
+<h3 align="center">Freshest commits are in the <b>Reactor</b> branch!</h3>
 <br><br>
-<b>Requires USB Flash or Builtin Updater App!</b> Upgrade to a custom firmware using the webupdater prior to installing Fusion! Once you have a custom firmware such as Unleashed installed you can use the built in updater to load Fusion.
+<b>Requires USB Flash or Builtin Updater App!</b> Builtin updater is added to most custom firmware.
 <br><br>
 
 ```bash
+(Step 1)
 To download the needed tools:
 $ git clone --recursive https://github.com/IamUSER/Flipper-Fusion.git
 $ cd Flipper-Fusion/
 
+(Step 2)
 Build apps:
 $ ./fbt fap_dist
 
+(Step 3)
 Build resources:
 $ ./fbt resources dolphin_ext
 
+(Step 4)
 Build firmware:
 $ ./fbt COMPACT=1 DEBUG=0 updater_package
 
+(Step 5 - Optional for rebuilds!)
 Clean Build Cache:
 $ ./fbt COMPACT=1 DEBUG=0 updater_package -c
 
+(Step 6 - Preferred flash method - Optional!)
 To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
 $ ./fbt flash_usb
 
+(Step 7 - Requires a custom firmware with builtin updater already be installed!)
+Copy new firmware from the dist/f7-C/FZFusionx.xx.x?x folder to FlipperSD/updates.
+Run the builtin updater app from the flipper zero file browser against the update.fuf file in the firmware folder.
+Wait for 2 hours! Unfortunately SD to SD updates take forever to unpack 220MB. 
 ```
 
 **NOTE: If you are coming from a different/older firmware and encounter application errors, it is recommended to overwrite the "apps" folder on the SD card after updating by unpacking the "apps" folder from the resources.tar to the SD card. This folder houses all the .fap files, which may not update to the correct API versions by default. This does `NOT` remove any of your saved files! If you have custom apps installed you should know what you're doing.**
 <br><br>
-If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode) to the Firmware. From the main menu, hit `Arrow UP` and select PRO Mode and now all assets will be stock.
+If you dont like the default asthetic, Xtreme Firmware added a SFW mode (OEM Mode in Fusion) to the Firmware. From the main menu, hit `Arrow UP` and select OEM Mode and now all assets will be stock.
 <br><br>
-**Enable PRO mode with the steps listed below**
+**Reenable PRO mode with the steps listed below**
 <br>
 
 - Navigate to the main screen
@@ -374,13 +359,6 @@ If you dont like the default asthetic, ClaraCrazy added a SFW mode (Now PRO Mode
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55334727/212134625-21383102-02f3-453f-b1d7-8a9c65b27612.svg">
 </p>
-
-----
-## SAST Tools
-
-This helps us a lot, thanks for the free license for this project!
-
-[PVS-Studio](https://pvs-studio.com/en/pvs-studio/?utm_source=github&utm_medium=organic&utm_campaign=open_source) - static analyzer for C, C++, C#, and Java code.
 
 ----
 <p align="center"> "What we do for ourselves dies with us. What we do for others and the world remains and is immortal.” ― Albert Pine </p>
