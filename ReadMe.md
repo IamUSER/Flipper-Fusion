@@ -45,7 +45,6 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 <br>
 <h2 align="center">Roadmap:</h2>
 - Desimpification! Clara is great! The stock Xtreme assets... Not so much.
-
 - Simplify, expand, unify, and make the FlipperZero a PRO device.
 <br><br>
 Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
