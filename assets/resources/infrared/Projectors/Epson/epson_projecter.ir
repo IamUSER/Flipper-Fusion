@@ -1,0 +1,98 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Off_on
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 85 7A 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B1 4E 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B0 4F 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B2 4D 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 125 37448 176
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: Zoom_out
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 84 7B 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 94 6B 00 00
+# 
+name: Pointer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9B 64 00 00
