@@ -189,8 +189,7 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 ```
 
 -----
-<p align="center">
-<h3> Manual Install</h3>
+<h3 align="center"> Manual Install</h3>
 
 - Download the latest release (.zip) from [The releases tab](https://github.com/IamUSER/Flipper-Fusion/releases)
 - Extract the archive. This is now your new Firmware folder
