@@ -1,6 +1,7 @@
 <h1 align="center"><p>&#9762; Flipper <code>Fusion</code> Changes &#9762;</p></h1>
 
 ```bash
+8-2-2023 - Add Mifare RFID Keys
 8-2-2023 - BadUSB Add https://github.com/CharlesTheGreat77/BADUSB
 8-2-2023 - UberGuidoZ Wavs
 8-2-2023 - IRDB Refresh

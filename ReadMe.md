@@ -113,11 +113,12 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 ```txt
 [Added in Fusion]
 
+- Mifare files.
 - Edit stock Xtreme Firmware to suit my maniacal ends.
 - Make GUI more PRO.
 - Add Asset Packs - Squatch, RM, Unleashed, etc.
 - Restored the Status Bar!
-- New Animation! (Feat. John Cena!)
+- New Animations! (Feat. John Cena!)
 - AirTag Emulator Firmware Mod added to resources. Not implemented! (https://github.com/culturally/flipper-zero-airtag)
 - A plethora of useful assets for IR, SUB, NFC, IBTN, RFID, etc.
 - A Thicc Sub Repo - https://github.com/SONNYRZ/Sub-GHz-Files-Flipper-Zero-
