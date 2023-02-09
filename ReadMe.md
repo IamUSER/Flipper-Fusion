@@ -189,8 +189,7 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 ```
 
 -----
-<br>
-
+<p align="center">
 <h3> Manual Install</h3>
 
 - Download the latest release (.zip) from [The releases tab](https://github.com/IamUSER/Flipper-Fusion/releases)
