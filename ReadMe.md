@@ -187,6 +187,17 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 - Tons of unused code from FAPs and system calls
 ```
 
+-----
+<br>
+
+<h3> Manual Install</h3>
+
+- Download the latest release (.zip) from [The releases tab](https://github.com/IamUSER/Flipper-Fusion/releases)
+- Extract the archive. This is now your new Firmware folder
+- Insert SD card into your PC and add the whole firmware folder to `SD/Update` and reinsert SD into the FlipperZero
+- Power on the Flipper, hit the `Arrow Down` button, this will get you to the file menu. Hit `Arrow Left` once to enter the Browser, and then simply search for the 'updates' folder
+- Inside that folder, select the Firmware folder you just added, and run the file thats simply called `Update`
+
 ----
 <br>
 <p align="center">
@@ -216,16 +227,17 @@ Build firmware:
 $ ./fbt COMPACT=1 DEBUG=0 updater_package
 
 (Step 5 - Optional for rebuilds!)
-Clean Build Cache:
+Clean Build Cache (Repeat Step 4 afterward.)
 $ ./fbt COMPACT=1 DEBUG=0 updater_package -c
 
-(Step 6 - Preferred flash method - Optional!)
-To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed)
+(Step 6 - Preferred flash method!)
+To flash directly to the Flipper (Needs to be connected via USB, qFlipper closed.)
+After Firmware flash unpack resources.tar to SD. This is faster than Step 7.
 $ ./fbt flash_usb
 
 (Step 7 - Requires a custom firmware with builtin updater already be installed!)
 Copy new firmware from the dist/f7-C/FZFusionx.xx.x?x folder to FlipperSD/updates.
-Run the builtin updater app from the flipper zero file browser against the update.fuf file in the firmware folder.
+Run the builtin updater in the same manner you update other custom firmware.
 Wait for 2 hours! Unfortunately SD to SD updates take forever to unpack 220MB. 
 ```
 
