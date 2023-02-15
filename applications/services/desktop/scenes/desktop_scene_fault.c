@@ -1,7 +1,7 @@
 #include <furi_hal.h>
 
 #include "../desktop_i.h"
-#include "../../../settings/xtreme_settings/xtreme_settings.h"
+#include "xtreme/assets.h"
 
 #define DesktopFaultEventExit 0x00FF00FF
 
@@ -15,7 +15,7 @@ void desktop_scene_fault_on_enter(void* context) {
 
     Popup* popup = desktop->hw_mismatch_popup;
     popup_set_context(popup, desktop);
-    if(XTREME_SETTINGS()->pro_mode) {
+    if(XTREME_ASSETS()->is_pro) {
         popup_set_header(
             popup,
             "System Error\n Reboot Complete...",

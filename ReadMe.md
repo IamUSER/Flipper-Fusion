@@ -61,7 +61,7 @@ XFW adds a powerful yet easy-to-use settings application, that gives you easy-ac
 <br><code>Anim Speed:</code> Speed in which the animations play
 <br><code>Cycle Anims:</code> Duration of how long animations are played before switching to next
 <br><code>Unlock Anims:</code> Custom setting just for PRO fallback animations.
-<br><code>Battery style:</code> Classic Firmware battery style toggle, just at a more convenient place
+<br><code>Battery Icon:</code> Classic Firmware battery style toggle, just at a more convenient place
 <br><code>XP Level:</code> Changes your Flippers level
 <br><code>SubGhz Extend:</code> Allows you to extend the subghz range beyond what FZ devs planned. (Potential Hardware Damage!)
 <br><code>SubGhz Bypass:</code> Allows you to bypass the subghz region locks of the Flipper
@@ -149,6 +149,7 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 - Jamming Files
 - Custom subghz presets
 - Multiple NFC protocols
+- Multiple Sub-Ghz protocols | Merged from Unleashed, thanks @xMasterX
 - Subghz and IR signal replication via gpio | Credits to @ankris812
 - Honda Keys (CVE-2022-27254) & Ford blockers
 - New API Routes for Locale settings
@@ -167,6 +168,7 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 - Applications now use above mentioned API Routes
 - All Assets
 - Tons of apps
+- File browser
 - Massive compiler re-do
 - About 1k files to speed things up a lot
 - Applications to now use the new Locale setting
