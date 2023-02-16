@@ -7,7 +7,7 @@
 #define PACKS_DIR EXT_PATH("dolphin_custom")
 
 typedef struct {
-    bool is_nsfw;
+    bool is_pro;
     const Icon* A_Levelup_128x64;
     const Icon* I_BLE_Pairing_128x64;
     const Icon* I_DolphinCommon_56x48;
