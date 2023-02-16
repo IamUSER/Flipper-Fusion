@@ -8,7 +8,7 @@ static bool bad_kb_file_select(BadKbApp* bad_kb) {
 
     DialogsFileBrowserOptions browser_options;
     dialog_file_browser_set_basic_options(
-        &browser_options, BAD_KB_APP_SCRIPT_EXTENSION, &I_badkb_10px);
+        &browser_options, BAD_KB_APP_SCRIPT_EXTENSION, &I_badusb_10px);
     browser_options.base_path = BAD_KB_APP_BASE_FOLDER;
     browser_options.skip_assets = true;
 
