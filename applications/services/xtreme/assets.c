@@ -137,7 +137,7 @@ void XTREME_ASSETS_LOAD() {
     xtreme_assets->I_Error_62x31 = &I_Error_62x31;
 
     if(xtreme_settings->asset_pack[0] == '\0') return;
-    xtreme_assets->is_pro = strncmp(xtreme_settings->asset_pack, "NSFW", strlen("NSFW")) == 0;
+    xtreme_assets->is_pro = strncmp(xtreme_settings->asset_pack, "Xtreme", strlen("Xtreme")) == 0;
     FileInfo info;
     FuriString* path = furi_string_alloc();
     furi_string_printf(path, PACKS_DIR "/%s", xtreme_settings->asset_pack);
