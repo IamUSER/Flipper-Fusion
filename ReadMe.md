@@ -367,9 +367,9 @@ If you dont like the default asthetic, Xtreme Firmware added a SFW mode (OEM Mod
 
 ----
 <h2 align="center">Contributors</h2>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/55334727/212134625-21383102-02f3-453f-b1d7-8a9c65b27612.svg">
-</p>
+
+[![Contributors](https://user-images.githubusercontent.com/55334727/212134625-21383102-02f3-453f-b1d7-8a9c65b27612.svg)](https://github.com/ClaraCrazy/Flipper-Xtreme/graphs/contributors)
+
 
 ----
 <p align="center"> "What we do for ourselves dies with us. What we do for others and the world remains and is immortal.” ― Albert Pine </p>
