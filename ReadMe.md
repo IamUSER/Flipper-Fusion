@@ -46,6 +46,11 @@ P.S. I'm not here for drama, your money, or recognition. Hack4Peace! XO
 <h2 align="center">Roadmap:</h2>
 Desimpification! Clara is great! The stock Xtreme assets... Not so much. Also simplify, expand, unify, and make the FlipperZero a PRO device.
 <br><br>
+- <h4>Feature-rich: We include all commonly found apps in the firmware, as long as they work.</h4>
+
+- <h4>Stable: Many hours have been spent rewriting core parts of the Flippers firmware as well as some of its apps to ensure stability. A task that was long needed on all Firmware, so we tackled it right away.</h4>
+
+- <h4>Customizable: Dont like the Animations, want to turn on/off the Home screen icons (battery, SD card etc), change the flippers name or anything like that? You absolutely can. No need to mess with code or deal with weird manifest files. Its all done with an App.</h4>
 Full roadmap: https://github.com/IamUSER/Flipper-Fusion/blob/main/documentation/roadmap.md
 
 -----
@@ -65,6 +70,19 @@ XFW adds a powerful yet easy-to-use settings application, that gives you easy-ac
 <br><code>XP Level:</code> Changes your Flippers level
 <br><code>SubGhz Extend:</code> Allows you to extend the subghz range beyond what FZ devs planned. (Potential Hardware Damage!)
 <br><code>SubGhz Bypass:</code> Allows you to bypass the subghz region locks of the Flipper
+We wrote a powerful yet easy-to-use application specifically for our Firmware, that gives you easy-access to all the fancy things we implemented:
+
+<img src="https://user-images.githubusercontent.com/55334727/222941141-32e3ef23-1dad-473f-86ee-45bef66ebd77.gif" align="left" width="400px"/>
+
+<details><summary><code>Graphics:</code></summary>Change the animation package (more on that below), the play speed of them, cycle duration and bypass level-bassed animations</details>
+
+<details><summary><code>Statusbar:</code></summary>Modify the design of the statusbar seen on the main Screen. Toggle Icons, their background, the top line and modify the battery icon to your liking.</details>
+
+<details><summary><code>Protocols:</code></summary>Here you can cycle between USB & Bluetooth mode for our Bad-Keyboard app, and toggle Subghz settings.</details>
+
+<details><summary><code>Dolphin:</code></summary>Two simple yet sought after features: Simply change the level of your Flipper and disable / change the "Butthurt timer", aka. the time it takes for the Flipper to get sad when its not used.</details>
+
+<details><summary><code>Misc:</code></summary>All the other options that dont fit elsewhere. Toggles for our custom dark mode & left-handed mode (yes, we thought about you :3 ), an option to change the Flippers name and a switch for file sorting.</details>
 
 <br clear="left"/>
 
@@ -90,9 +108,19 @@ Once you have some packs, upload them to your Flipper in <code>SD/dolphin_custom
 <br>
 
 <img src="https://user-images.githubusercontent.com/55334727/214013624-25dad48e-72ea-4a90-9060-66e137e0d61a.png" align="left" width="200px"/>
-After installing the packs to Flipper, hit the <code>Arrow UP</code> button on the main menu and go to <code>Xtreme Settings</code>. Here choose which pack you want and tweak the other settings how you prefer, then press back to reboot and enjoy your new assets & animations!
+After installing the packs to Flipper, hit the <code>Arrow UP</code> button on the main menu and go to <code>Xtreme Settings</code>. Here choose which pack you want and tweak the other settings how you prefer, then press back to reboot and enjoy your new assets for all apps (e.g. Subghz scanning asset) & animations!
 
 <br clear="left"/>
+
+-----
+<br>
+<h2 align="center">Bad Keyboard:</h2>
+
+<img src="https://user-images.githubusercontent.com/49810075/223855940-b8ee6770-4520-4bcc-a4cc-089196cf904b.png" align="left" width="250px"/>
+<! -- This fuckshit needs a captured image, but bc of blockage, i cant get one. someone do some magic plz -- !>
+BadUSB is a wonderful app, but it lacks bluetooth capabilities. Now some might argue that its useless as you will always need authentication from both sides, but what if I told you that we found a solution to this problem?
+<br><br>
+Bad-KB allows you to toggle between USB and Bluetooth mode for your attacks. In Bluetooth mode it allows you to spoof the name & MAC of the device to whatever you want. Being a JBL speaker or a wireless razer keyboard is easily doable, allowing you to trick people so you can run your payloads without needing a cable at hand.
 
 -----
 <br>
@@ -134,6 +162,7 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 - Xtreme App
 - Asset Packs
 - More UI options
+- Bad-Keyboard App
 - A new battery display-type
 - Scrolling view for long file names in browser
 - NSFW Animations tied to the level system. Read more above
@@ -170,7 +199,7 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 - Tons of apps
 - File browser
 - Massive compiler re-do
-- About 1k files to speed things up a lot
+- About 4k files to speed things up a lot
 - Applications to now use the new Locale setting
 ```
 ```txt
@@ -214,6 +243,17 @@ Full(ish) changelog: https://github.com/IamUSER/Flipper-Fusion/blob/main/documen
 To download the needed tools:
 $ git clone --recursive https://github.com/IamUSER/Flipper-Fusion.git
 $ cd Flipper-Fusion/
+<h2 align="center">Install:</h2>
+
+**This is the recommended install procedure. Please follow these steps EXACTLY and CAREFULLY to ensure you install correctly.**
+**This process will NOT delete any saved files and simply ensures the install goes smoothly.**
+<br><br>
+
+- Download the latest release (.zip) from [The releases tab](https://github.com/ClaraCrazy/Flipper-Xtreme/releases/latest)
+- Extract the archive. This is now your new Firmware folder
+- Open [qFlipper](https://flipperzero.one/update), head to `SD/Update` and simply move the firmware folder there
+- On the Flipper, hit the `Arrow Down` button, this will get you to the file menu. In there simply search for your updates folder
+- Inside that folder, select the Firmware you just moved onto it, and run the file thats simply called `Update`
 
 (Step 2)
 Build apps:
@@ -344,6 +384,9 @@ If you dont like the default asthetic, Xtreme Firmware added a SFW mode (OEM Mod
 - [Sub-Ghz Bruteforce](https://github.com/derskythe/flipperzero-subbrute/tree/master)
 - [Sub-Ghz Playlist](https://github.com/darmiel/flipper-playlist)
 - [Protocol Visualizer](https://github.com/antirez/protoview)
+
+**If you have issues or crashes with that process, you can try to use `Settings > Storage > Factory Reset` then retry the install.**
+**Doing that will NOT remove your saved files, it will only forget some settings and paired devices.**
 
 ----
 <br>
