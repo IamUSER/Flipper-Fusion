@@ -152,7 +152,7 @@ static DialogMessageButton fw_version_screen(DialogsApp* dialogs, DialogMessage*
     dialog_message_set_header(message, "Firmware Info:", 0, 0, AlignLeft, AlignTop);
     dialog_message_set_text(
         message,
-        "FZFusion 0.75.0r2\nPurposeful Porpoise",
+        "FZFusion 0.78.1r1\nPurposeful Porpoise",
         0,
         13,
         AlignLeft,
