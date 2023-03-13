@@ -1,5 +1,5 @@
 #!/usb/bin/env python3
-VERSION = "FZFusion-0_78_1_r1"
+VERSION = "FZFusion-0_78_1_b1"
 
 from flipper.app import App
 
