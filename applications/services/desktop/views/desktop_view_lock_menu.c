@@ -9,7 +9,6 @@ typedef enum {
     DesktopLockMenuIndexLock,
     DesktopLockMenuIndexPinLock,
     DesktopLockMenuIndexPinLockShutdown,
-    DesktopLockMenuIndexXtremeSettings,
 
     DesktopLockMenuIndexTotalCount
 } DesktopLockMenuIndex;
@@ -63,8 +62,6 @@ void desktop_lock_menu_draw_callback(Canvas* canvas, void* model) {
             } else {
                 str = "Set PIN + Off";
             }
-        } else if(i == DesktopLockMenuIndexXtremeSettings) {
-            str = "Xtra Settings";
         }
 
         if(str) //-V547
@@ -123,8 +120,6 @@ bool desktop_lock_menu_input_callback(InputEvent* event, void* context) {
             lock_menu->callback(DesktopLockMenuEventPinLock, lock_menu->context);
         } else if((idx == DesktopLockMenuIndexPinLockShutdown) && (event->type == InputTypeShort)) {
             lock_menu->callback(DesktopLockMenuEventPinLockShutdown, lock_menu->context);
-        } else if((idx == DesktopLockMenuIndexXtremeSettings) && (event->type == InputTypeShort)) {
-            lock_menu->callback(DesktopLockMenuEventXtremeSettings, lock_menu->context);
         }
         consumed = true;
     }

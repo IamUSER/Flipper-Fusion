@@ -96,12 +96,6 @@ bool desktop_scene_lock_menu_on_event(void* context, SceneManagerEvent event) {
             }
             consumed = true;
             break;
-
-        case DesktopLockMenuEventXtremeSettings:
-            loader_start(desktop->loader, "Xtreme Settings", NULL);
-            break;
-        default:
-            break;
         }
     } else if(event.type == SceneManagerEventTypeBack) {
         scene_manager_set_scene_state(desktop->scene_manager, DesktopSceneLockMenu, 0);
